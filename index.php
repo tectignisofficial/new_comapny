@@ -27,6 +27,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 	<style>
+
+
 		.list li::before {
 			content: "\2022";
 			color: #ff9900;
@@ -66,6 +68,9 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 			#ourclients .client-left-section {
 				box-shadow: none;
 				padding: 0 15px 30px;
+			}
+			.mbView{
+				padding-top: 3.5rem;
 			}
 		}
 
@@ -529,7 +534,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-8">
+				<div class="col-lg-8 mbView">
 					<div class="tab-content" id="myTabContent">
 						<div class="tab-pane trun_ideas_contetn fade show active" id="topa" role="tabpanel"
 							aria-labelledby="topa-tab">
@@ -553,7 +558,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									style="background-color: rgb(210 235 243); padding: 31px; ">
 									<img src="assets/img/digital-marketing.webp" alt="dashbord">
 								</div>
-								<div class="col-lg-6 text-start" style="padding-left: 45px;">
+								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
 										help?</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
@@ -587,7 +592,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									style="background-color: rgb(210 235 243); padding: 31px; ">
 									<img src="assets/img/digital-marketing.webp" alt="dashbord">
 								</div>
-								<div class="col-lg-6 text-start" style="padding-left: 45px;">
+								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
 										help?</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
@@ -621,7 +626,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									style="background-color: rgb(210 235 243); padding: 31px; ">
 									<img src="assets/img/digital-marketing.webp" alt="dashbord">
 								</div>
-								<div class="col-lg-6 text-start" style="padding-left: 45px;">
+								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
 										help?</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
@@ -655,7 +660,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									style="background-color: rgb(210 235 243); padding: 31px; ">
 									<img src="assets/img/digital-marketing.webp" alt="dashbord">
 								</div>
-								<div class="col-lg-6 text-start" style="padding-left: 45px;">
+								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
 										help?</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
@@ -690,7 +695,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									style="background-color: rgb(210 235 243); padding: 31px; ">
 									<img src="assets/img/digital-marketing.webp" alt="dashbord">
 								</div>
-								<div class="col-lg-6 text-start" style="padding-left: 45px;">
+								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
 										help?</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
