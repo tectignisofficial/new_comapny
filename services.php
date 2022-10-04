@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>PreeLand - Multipurpose Landing Page Template</title>
+	<title>Tectignis - Service</title>
 	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
