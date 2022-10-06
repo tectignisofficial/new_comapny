@@ -21,7 +21,7 @@
 				<div class="col-lg-9">
 					<!-- Header Right Button -->
 					<div class="hr_btn">
-						<a class="button-2" href="#">Get Quote</a>
+						<a class="button-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Get Quote</a>
 					</div>
 					<!-- Menu -->
 					<div class="menu">
@@ -103,9 +103,9 @@
 								<li>
 									<a href="portfolio.php">Portfolio</a>
 								</li>
-								<li>
+								<!-- <li>
 									<a href="blog.php">Blog</a>
-								</li>
+								</li> -->
 								<li>
 									<a href="contact.php">Contact Us</a>
 								</li>

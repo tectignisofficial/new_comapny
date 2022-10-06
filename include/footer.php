@@ -63,11 +63,11 @@
 						<div class="f-widgets-item">
 							<h3>Useful Links</h3>
 							<ul>
-								<li><a href="#">CEO</a></li>
-								<li><a href="#">Team</a></li>
-								<li><a href="#">Terms and Condition</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
+								<li><a href="ceo-govind-bavkar.php">CEO</a></li>
+								<li><a href="team.php">Team</a></li>
+								<li><a href="terms-&-condition.php">Terms and Condition</a></li>
+								<li><a href="privacy-policy.php">Privacy Policy</a></li>
+								<li><a href="refund-policy.php">Refund Policy</a></li>
 							</ul>
 						</div>
 						<div class="footer_social mt-2" style="float:left;">

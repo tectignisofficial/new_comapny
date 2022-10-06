@@ -33,6 +33,7 @@ h1,h2,h3,h4,h5,h6,p{
 h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 	color: #344767;
+	margin: 15px 0;
 }
 ul{
 	margin:0;
@@ -58,7 +59,7 @@ textarea:focus{
 	outline: none;
 }
 p{
-	color: #67748e;
+	color: #191919;
 }
 img{
 	max-width: 100%;
