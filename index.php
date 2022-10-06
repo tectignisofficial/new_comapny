@@ -76,7 +76,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 
 		#ourclients .client-left-section {
 			padding: 20px 0;
-			box-shadow: 0 0 35px #000;
+			box-shadow: 0 0 10px #000;
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -720,8 +720,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 	<section class="section-padding pt-0">
 		<div id="ourclients" class="p-3">
 			<div class="ourclientheader mb-5 text-center">
-				<h1 style="color: #ddd;"><b>Our Partners</b> </h1>
-				<p style="color: #ddd;">We are proud to be a part of the following companies</p>
+				<h1><b>Our Partners</b> </h1>
+				<p>We are proud to be a part of the following companies</p>
 			</div>
 
 			<div class="row" id="ourclients-row">
@@ -738,7 +738,6 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<li class="mr-2"><img src="our_client/hpcl.jpeg" width="100px" height="100px" alt="" /></li>
 						<li class="mr-2"><img src="our_client/lic.png" width="100px" height="100px" alt="" /></li>
 						<li class="mr-2"><img src="our_client/lo.png" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/logo.png" width="100px" height="100px" alt="" /></li>
 						<li class="mr-2"><img src="our_client/reliance.png" width="100px" height="100px" alt="" /></li>
 					</ul>
 				</div>
