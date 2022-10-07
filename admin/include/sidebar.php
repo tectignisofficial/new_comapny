@@ -53,6 +53,8 @@
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="portfolio.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Portfolio</span></a>
                 </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href=""><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples">Request Quote</span></a>
+                </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="logout.php"><i data-feather="log-out"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Logout</span></a>
                 </li>
             </ul>
