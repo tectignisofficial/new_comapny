@@ -1079,41 +1079,41 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				</div>
 				<div class="modal-body">
 					<div class="contact-form">
-						<form id="contact-form" action="mail.php" method="POST">
+						<form id="contact-form" action="" method="POST">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="text" name="name" placeholder="Your Name">
+										<input type="text" name="name" id="name" placeholder="Your Name">
 										<i class="fas fa-user"></i>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="email" name="email" placeholder="Your Email">
+										<input type="email" name="email" id="email" placeholder="Your Email">
 										<i class="far fa-envelope"></i>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="text" name="phone" placeholder="Your Phone">
+										<input type="text" name="phone" id="phone" placeholder="Your Phone">
 										<i class="fas fa-mobile-alt"></i>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="text" name="subject" placeholder="Your Subjects">
+										<input type="text" name="subject" id="subject" placeholder="Your Subjects">
 										<i class="fas fa-file-alt"></i>
 									</div>
 								</div>
 								<div class="col-12">
 									<div class="single-input">
-										<textarea name="message" placeholder="Write Message"
+										<textarea name="message" id="message" placeholder="Write Message"
 											spellcheck="false"></textarea>
 										<i class="fas fa-pen"></i>
 									</div>
 								</div>
 								<div class="col-12">
-									<button type="submit">Send Message</button>
+									<button type="submit" name="submit" id="submit">Send Message</button>
 								</div>
 							</div>
 						</form>
@@ -1163,5 +1163,24 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 	
 	</script>
 </body>
+
+<?php
+if(isset($_POST['submit'])){
+  $name=$_POST['name'];
+  $email=$_POST['email'];
+  $mob_no=$_POST['phone'];
+  $subject=$_POST['subject'];
+  $message=$_POST['message'];
+ 
+  $sql=mysqli_query($conn,"INSERT INTO `request_quote`(`name`, `email`, `mob_no`, `subject`, `message`) VALUES ('$name','$email','$phone','$subject','$message')");
+  if($sql==1){
+    echo '<script>alert("Successfully submitted");</script>';
+    header("location:index.php");
+}else {
+    echo '<script>alert("oops...somthing went wrong");</script>';
+}
+        
+}
+?>
 
 </html>
