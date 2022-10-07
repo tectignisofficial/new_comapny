@@ -103,7 +103,7 @@ include('include/config.php');
                                             <td><?php echo $count;?> </td>
                                             <td><?php echo $arr['name'];?> </td>
                                             <td><?php echo $arr['email'];?> </td>
-                                            <td><?php echo $arr['phone'];?> </td>
+                                            <td><?php echo $arr['mob_no'];?> </td>
                                             <td><?php echo $arr['subject'];?> </td>
                                             <td><?php echo $arr['message'];?> </td>
                                         </tr>
