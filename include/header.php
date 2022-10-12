@@ -6,7 +6,7 @@
 				<div class="col-lg-3 align-self-center">
 					<div class="logo">
 						<a href="index.php">
-							<img src="assets/img/logo2.png" alt="img">
+							<img src="assets/img/logo.png" alt="Tectignis">
 						</a>
 					</div>
 					<div class="canvas_open">
