@@ -21,7 +21,7 @@
 				<div class="col-lg-9">
 					<!-- Header Right Button -->
 					<div class="hr_btn">
-						<a class="button-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Get Quote</a>
+						<a class="button-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="request_quote_action.php">Get Quote</a>
 					</div>
 					<!-- Menu -->
 					<div class="menu">
