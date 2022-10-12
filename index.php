@@ -455,9 +455,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<!-- Content -->
 				<div class="col-lg-6 align-self-center mb-30">
 					<div class="applicant-content">
-						<h2 class="text-gradient">Designed with The Of applicant in mind.</h2>
-						<p> Duis volutpat viverra consequat. Nam feugiat vitae tortor et ultrices. Duis fringilla porta
-							interdum. Nunc sollicitudin placerat luctus. </p>
+						<h2 class="text-gradient">Leading Video Editing Service Provider in Navi Mumbai</h2>
+						<p> We can give thousands of reasons but here’s the one that ultimately matters! </p>
 						<div class="applicant-list-full">
 							<!-- Single -->
 							<div class="item">
@@ -465,9 +464,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									<i class="fas fa-code"></i>
 								</div>
 								<div class="content">
-									<h4> Bootstrap users since the beginning </h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut
-										labore et</p>
+									<h4> Undiminished quality </h4>
+									<p>Quality of the edited video will remain the same as the quality of the original video. There wouldn’t be any loss of pixels after editing, which doesn’t usually happen if you use an online editing tool.</p>
 								</div>
 							</div>
 							<!-- Single -->
@@ -476,9 +474,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									<i class="fas fa-tools"></i>
 								</div>
 								<div class="content">
-									<h4>Explore the Snippets tool</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod tempor incididunt ut
-										labore et</p>
+									<h4>Unparalleled customer experience</h4>
+									<p>We’re obsessed with serving you and making sure you get fully satisfied. In case of any changes/ modifications in the edited video, feel free to reach out to us and we’ll incorporate them proactively.</p>
 								</div>
 							</div>
 						</div>
@@ -509,7 +506,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<li class="nav-item" role="presentation">
 								<button class="nav-link active" id="topa-tab" data-bs-toggle="tab"
 									data-bs-target="#topa" role="tab" aria-controls="topa" aria-selected="true"><i
-										class="fas fa-file-alt"></i>Ecommerce Website Designing</button>
+										class="fas fa-file-alt"></i>Ecommerce Website Design & Development</button>
 							</li>
 							<li class="nav-item" role="presentation">
 								<button class="nav-link" id="saasde-tab" data-bs-toggle="tab" data-bs-target="#saasde"
@@ -545,13 +542,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Social
-											Media Advertising</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Advertisements have taken a
-											new leap with social media. Social media
-											advertising is the most cost effective solution for all types of businesses
-											that want to advertise their products or services and reach their set of
-											audiences.</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Ecommerce Website Design & Development</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Tectignis is a Magento Solution Company with deep skills in providing Magento Services for your robust eCommerce portal. We cater to your needs by crafting a tailor-made solution with Magento Services & Magento Integration as per your specifications.</p>
 									</div>
 								</div>
 							</div>
@@ -564,10 +556,11 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
 										help?</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
-										<li>Reach your customers fast</li>
-										<li>Premium advertisement</li>
-										<li>Quick brand awareness</li>
-										<li>Cost effective ads</li>
+										<li>Custom Shopping Cart</li>
+										<li>Social Media Integration</li>
+										<li>Secure Payment Gateway</li>
+										<li>API Payment & Logistic Integration</li>
+										<li>Advanced Security & Support</li>
 									</ul>
 								</div>
 							</div>
@@ -592,7 +585,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<div class="row mb-40">
 								<div class="col-lg-4 offset-lg-2 text-start"
 									style="background-color: rgb(210 235 243); padding: 31px; ">
-									<img src="assets/img/digital-marketing.webp" alt="dashbord">
+									<img src="assets/img/social-media-advertising.jpg" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
@@ -613,29 +606,25 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Social
-											Media Advertising</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Advertisements have taken a
-											new leap with social media. Social media
-											advertising is the most cost effective solution for all types of businesses
-											that want to advertise their products or services and reach their set of
-											audiences.</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Social Media Management</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Don’t just engage followers. Convert them into loyal customers. Our social media marketing services make an impact where it matters most—the bottom line of your income statement!</p>
 									</div>
 								</div>
 							</div>
 							<div class="row mb-40">
 								<div class="col-lg-4 offset-lg-2 text-start"
 									style="background-color: rgb(210 235 243); padding: 31px; ">
-									<img src="assets/img/digital-marketing.webp" alt="dashbord">
+									<img src="assets/img/social-media-management.jpg" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
 										help?</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
-										<li>Reach your customers fast</li>
-										<li>Premium advertisement</li>
-										<li>Quick brand awareness</li>
-										<li>Cost effective ads</li>
+										<li>Graphic Design</li>
+										<li>Video production & editing</li>
+										<li>Content & Storytelling</li>
+										<li>Social Media Creatives</li>
+										<li>Email & Digital Marketing</li>
 									</ul>
 								</div>
 							</div>
@@ -647,29 +636,24 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Social
-											Media Advertising</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Advertisements have taken a
-											new leap with social media. Social media
-											advertising is the most cost effective solution for all types of businesses
-											that want to advertise their products or services and reach their set of
-											audiences.</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Website Design &
+									Development</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Tectignis is a professional web designing & developing company that offers affordable web designing services by empowering individuals, teams and organizations in the most efficient manner. The web designers at Tectignis have the creative talent and technical expertise to develop websites.</p>
 									</div>
 								</div>
 							</div>
 							<div class="row mb-40">
 								<div class="col-lg-4 offset-lg-2 text-start"
 									style="background-color: rgb(210 235 243); padding: 31px; ">
-									<img src="assets/img/digital-marketing.webp" alt="dashbord">
+									<img src="assets/img/website-design-and-development.jpg" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
-									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
-										help?</p>
+									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">Benefits OF Website Design & Development</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
-										<li>Reach your customers fast</li>
-										<li>Premium advertisement</li>
-										<li>Quick brand awareness</li>
-										<li>Cost effective ads</li>
+										<li>Easy To Navigate</li>
+										<li>Security</li>
+										<li>No Installation</li>
+										<li>Mobile Responsive</li>
 									</ul>
 								</div>
 							</div>
@@ -682,29 +666,24 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Social
-											Media Advertising</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Advertisements have taken a
-											new leap with social media. Social media
-											advertising is the most cost effective solution for all types of businesses
-											that want to advertise their products or services and reach their set of
-											audiences.</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Google Ads</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Get all the traffic from Google to your website! Divert people searching on Google about your products and services to your website.</p>
 									</div>
 								</div>
 							</div>
 							<div class="row mb-40">
 								<div class="col-lg-4 offset-lg-2 text-start"
 									style="background-color: rgb(210 235 243); padding: 31px; ">
-									<img src="assets/img/digital-marketing.webp" alt="dashbord">
+									<img src="assets/img/google-ads.webp" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
-									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
-										help?</p>
+									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">Our Google AdWords team mainly concentrates on-</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
-										<li>Reach your customers fast</li>
-										<li>Premium advertisement</li>
-										<li>Quick brand awareness</li>
-										<li>Cost effective ads</li>
+										<li>High-Quality Keyword Research</li>
+										<li>High-Quality Campaigns</li>
+										<li>Targeted Traffic</li>
+										<li>Appear on Top</li>
+										<li>Measurable ROI</li>
 									</ul>
 								</div>
 							</div>
