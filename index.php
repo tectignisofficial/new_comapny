@@ -30,9 +30,9 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - Index </title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -255,7 +255,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<div class="col-lg-4 col-sm-6 mb-30">
 					<div class="info-box-s1 h-100">
 						<div class="icon">
-							<img src="assets/img/icon/cod.png" alt="code">
+							<img src="assets/img/icon/cod.webp" alt="code">
 						</div>
 						<div class="content">
 							<h4 class="text-gradient">Business Consulting and Growth Strategy</h4>
@@ -267,7 +267,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<div class="col-lg-4 col-sm-6 mb-30">
 					<div class="info-box-s1 h-100">
 						<div class="icon">
-							<img src="assets/img/icon/meas.png" alt="mase">
+							<img src="assets/img/icon/meas.webp" alt="mase">
 						</div>
 						<div class="content">
 							<h4 class="text-gradient">Digital Business Model Transformation</h4>
@@ -279,7 +279,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<div class="col-lg-4 col-sm-6 mb-30">
 					<div class="info-box-s1 h-100">
 						<div class="icon">
-							<img src="assets/img/icon/do.png" alt="doc">
+							<img src="assets/img/icon/do.webp" alt="doc">
 						</div>
 						<div class="content">
 							<h4 class="text-gradient"> Building Profitable Sales Funnels </h4>
@@ -306,7 +306,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/1.png" alt="icon">
+										<img src="assets/img/icon/1.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>Experience in different sectors</h4>
@@ -320,7 +320,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>Risk-free Association</h4>
@@ -337,7 +337,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<!-- Image -->
 				<div class="col-lg-6">
 					<div class="analytics-toll-img">
-						<img src="assets/img/digital-marketing-company-in-navimumbai.jpg" alt="img">
+						<img src="assets/img/digital-marketing-company-in-navimumbai.webp" alt="img">
 
 					</div>
 				</div>
@@ -346,7 +346,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 	</section>
 	<!-- End analytics Area -->
 	<!-- Start Template Need Area -->
-	<section class="template-need" style="background-image:url('assets/img/cta-1.png');">
+	<section class="template-need" style="background-image:url('assets/img/cta-1.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -371,7 +371,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<div class="col-12 col-lg-5">
 					<div class="usefull-resourses-form">
 						<div class="thum">
-							<img src="assets/img/custom-website-development.jpg" alt="img">
+							<img src="assets/img/custom-website-development.webp" alt="img">
 						</div>
 						<div class="use_form">
 							<form action="#">
@@ -465,7 +465,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<!-- Thumbnail -->
 				<div class="col-lg-6 mb-30">
 					<div class="applicant-img">
-						<img src="assets/img/mobile-app-development.jpg" alt="dashkit">
+						<img src="assets/img/mobile-app-development.webp" alt="dashkit">
 					</div>
 				</div>
 			</div>
@@ -473,7 +473,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<!-- Thumbnail -->
 				<div class="col-lg-6 mb-30 order-lg-first order-last">
 					<div class="applicant-img applicant-img-2">
-						<img src="assets\img\website-development.jpg" alt="dashkit">
+						<img src="assets\img\website-development.webp" alt="dashkit">
 					</div>
 				</div>
 				<!-- Content -->
@@ -565,7 +565,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 					<div class="tab-content" id="myTabContent">
 						<div class="tab-pane trun_ideas_contetn fade show active" id="topa" role="tabpanel"
 							aria-labelledby="topa-tab">
-							<!-- <img src="assets/img/dashbord.png" alt="dashbord"> -->
+							<!-- <img src="assets/img/dashbord.webp" alt="dashbord"> -->
 							<div class="row mb-40">
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
@@ -600,7 +600,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						</div>
 						<div class="tab-pane trun_ideas_contetn fade" id="saasde" role="tabpanel"
 							aria-labelledby="saasde-tab">
-							<!-- <img src="assets/img/dashbord.png" alt="dashbord"> -->
+							<!-- <img src="assets/img/dashbord.webp" alt="dashbord"> -->
 							<div class="row mb-40">
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
@@ -618,7 +618,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<div class="row mb-40">
 								<div class="col-lg-4 offset-lg-2 text-start"
 									style="background-color: rgb(210 235 243); padding: 31px; ">
-									<img src="assets/img/social-media-advertising.jpg" alt="dashbord">
+									<img src="assets/img/social-media-advertising.webp" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
@@ -634,7 +634,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						</div>
 						<div class="tab-pane trun_ideas_contetn fade" id="softwareanaly" role="tabpanel"
 							aria-labelledby="softwareanaly-tab">
-							<!-- <img src="assets/img/dashbord.png" alt="dashbord"> -->
+							<!-- <img src="assets/img/dashbord.webp" alt="dashbord"> -->
 							<div class="row mb-40">
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
@@ -651,7 +651,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<div class="row mb-40">
 								<div class="col-lg-4 offset-lg-2 text-start"
 									style="background-color: rgb(210 235 243); padding: 31px; ">
-									<img src="assets/img/social-media-management.jpg" alt="dashbord">
+									<img src="assets/img/social-media-management.webp" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">How can we
@@ -668,7 +668,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						</div>
 						<div class="tab-pane trun_ideas_contetn fade" id="exchangefeed" role="tabpanel"
 							aria-labelledby="exchangefeed-tab">
-							<!-- <img src="assets/img/dashbord.png" alt="dashbord"> -->
+							<!-- <img src="assets/img/dashbord.webp" alt="dashbord"> -->
 							<div class="row mb-40">
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
@@ -687,7 +687,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<div class="row mb-40">
 								<div class="col-lg-4 offset-lg-2 text-start"
 									style="background-color: rgb(210 235 243); padding: 31px; ">
-									<img src="assets/img/website-design-and-development.jpg" alt="dashbord">
+									<img src="assets/img/website-design-and-development.webp" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
 									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">Benefits OF
@@ -704,7 +704,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 
 						<div class="tab-pane trun_ideas_contetn fade" id="foremployees" role="tabpanel"
 							aria-labelledby="foremployees-tab">
-							<!-- <img src="assets/img/dashbord.png" alt="dashbord"> -->
+							<!-- <img src="assets/img/dashbord.webp" alt="dashbord"> -->
 							<div class="row mb-40">
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
@@ -759,14 +759,14 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<div class="module mt-5">
 
 					<ul class="slide_margin">
-						<li class="mr-2"><img src="our_client/canara.jpeg" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/download.jpg" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/gobest.jpeg" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/harmony.png" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/hpcl.jpeg" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/lic.png" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/lo.png" width="100px" height="100px" alt="" /></li>
-						<li class="mr-2"><img src="our_client/reliance.png" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/canara.webp" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/download.webp" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/gobest.webp" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/harmony.webp" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/hpcl.webp" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/lic.webp" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/lo.webp" width="100px" height="100px" alt="" /></li>
+						<li class="mr-2"><img src="our_client/reliance.webp" width="100px" height="100px" alt="" /></li>
 					</ul>
 				</div>
 
@@ -972,7 +972,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.png" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Sushil joshi</h4>
@@ -1002,7 +1002,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.jpg" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Amit Jain </h4>
@@ -1028,7 +1028,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.png" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Bhavesh Gaikar</h4>
@@ -1054,7 +1054,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.png" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>pragati ghurup</h4>
@@ -1076,7 +1076,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.png" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Madhur Chipkar</h4>
@@ -1098,7 +1098,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.png" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Bhavesh Gaikar</h4>
@@ -1124,7 +1124,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.png" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Bhavesh Gaikar</h4>
@@ -1175,7 +1175,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<!-- Thumbanil -->
 						<div class="thumbnail">
 							<a href="single.php">
-								<img src="assets/img/blog/1.jpg" alt="img">
+								<img src="assets/img/blog/1.webp" alt="img">
 							</a>
 							<div class="date">
 								<span>

@@ -31,9 +31,9 @@ if(isset($_POST['submit']))
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - Refund Policy</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -73,7 +73,7 @@ if(isset($_POST['submit']))
 				</div>
 				<div class="mobile-logo">
 					<a href="index.php">
-						<img src="assets/img/logo2.png" alt="logo" />
+						<img src="assets/img/logo2.webp" alt="logo" />
 					</a>
 				</div>
 				<div id="menu" class="text-left">
@@ -117,7 +117,7 @@ if(isset($_POST['submit']))
 	<!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->
-	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.jpg');">
+	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -148,7 +148,7 @@ if(isset($_POST['submit']))
 	</div>
 	<!-- End Services Area -->
 	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.png');">
+	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

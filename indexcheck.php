@@ -5,9 +5,9 @@
 	<meta name="Tectignis" content="width=device-width, initial-scale=1.0">
 	<meta name="Tectignis" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="mobile-logo">
                     <a href="index.php">
-                        <img src="assets/img/logo2.png" alt="logo" />
+                        <img src="assets/img/logo2.webp" alt="logo" />
                     </a>
                 </div>
                 <div id="menu" class="text-left">
@@ -175,7 +175,7 @@
 				<div class="col-lg-4 col-sm-6 mb-30">
 					<div class="info-box-s1">
 						<div class="icon">
-							<img src="assets/img/icon/cod.png" alt="code">
+							<img src="assets/img/icon/cod.webp" alt="code">
 						</div>
 						<div class="content">
 							<h4 class="text-gradient">Business Consulting and Growth Strategy</h4>
@@ -187,7 +187,7 @@
 				<div class="col-lg-4 col-sm-6 mb-30">
 					<div class="info-box-s1">
 						<div class="icon">
-							<img src="assets/img/icon/meas.png" alt="mase">
+							<img src="assets/img/icon/meas.webp" alt="mase">
 						</div>
 						<div class="content">
 							<h4 class="text-gradient">Digital Business Model Transformation</h4>
@@ -199,7 +199,7 @@
 				<div class="col-lg-4 col-sm-6 mb-30">
 					<div class="info-box-s1">
 						<div class="icon">
-							<img src="assets/img/icon/do.png" alt="doc">
+							<img src="assets/img/icon/do.webp" alt="doc">
 						</div>
 						<div class="content">
 							<h4 class="text-gradient"> Building Profitable Sales Funnels </h4>
@@ -225,7 +225,7 @@
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/1.png" alt="icon">
+										<img src="assets/img/icon/1.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>Experience in different sectors</h4>
@@ -238,7 +238,7 @@
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>Risk-free Association</h4>
@@ -250,7 +250,7 @@
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>We believe in Service</h4>
@@ -262,7 +262,7 @@
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>No additional costs</h4>
@@ -277,7 +277,7 @@
 				<!-- Image -->
 				<div class="col-lg-6">
 					<div class="analytics-toll-img">
-						<img src="assets/img/1.png" alt="img">
+						<img src="assets/img/1.webp" alt="img">
 						<div class="vedio-btn-ab">
 							<a data-rel="lightcase" href="https://player.vimeo.com/video/553110309?h=dc4ee31dc4"><i class="fas fa-play"></i> <span>Check This Vedio</span></a>
 						</div>
@@ -288,7 +288,7 @@
 	</section>
 	<!-- End analytics Area -->
 	<!-- Start Template Need Area -->
-	<section class="template-need" style="background-image:url('assets/img/cta-1.png');">
+	<section class="template-need" style="background-image:url('assets/img/cta-1.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -310,7 +310,7 @@
 				<div class="col-12 col-lg-5">
 					<div class="usefull-resourses-form">
 						<div class="thum">
-							<img src="assets/img/photo-2.jpg" alt="img">
+							<img src="assets/img/photo-2.webp" alt="img">
 						</div>
 						<div class="use_form">
 							<form action="#">
@@ -358,7 +358,7 @@
 								<div class="col-sm-6 mb-30">
 									<div class="info-box-s2">
 										<div class="icon">
-											<img src="assets/img/icon/1.png" alt="icon">
+											<img src="assets/img/icon/1.webp" alt="icon">
 										</div>
 										<div class="content">
 											<h4>Business Proposal</h4>
@@ -370,7 +370,7 @@
 								<div class="col-sm-6 mb-30">
 									<div class="info-box-s2">
 										<div class="icon">
-											<img src="assets/img/icon/2.png" alt="icon">
+											<img src="assets/img/icon/2.webp" alt="icon">
 										</div>
 										<div class="content">
 											<h4>App Development & Testing</h4>
@@ -382,7 +382,7 @@
 								<div class="col-sm-6 mb-30">
 									<div class="info-box-s2">
 										<div class="icon">
-											<img src="assets/img/icon/2.png" alt="icon">
+											<img src="assets/img/icon/2.webp" alt="icon">
 										</div>
 										<div class="content">
 											<h4>Get The Project Delivered</h4>
@@ -394,7 +394,7 @@
 								<div class="col-sm-6 mb-30">
 									<div class="info-box-s2">
 										<div class="icon">
-											<img src="assets/img/icon/2.png" alt="icon">
+											<img src="assets/img/icon/2.webp" alt="icon">
 										</div>
 										<div class="content">
 											<h4>Conceptualization of Idea</h4>
@@ -409,7 +409,7 @@
 					<!-- Image -->
 					<div class="col-lg-6">
 						<div class="analytics-toll-img">
-							<img src="assets/img/1.png" alt="img">
+							<img src="assets/img/1.webp" alt="img">
 							<div class="vedio-btn-ab">
 								<a data-rel="lightcase" href="https://player.vimeo.com/video/553110309?h=dc4ee31dc4"><i class="fas fa-play"></i> <span>Check This Vedio</span></a>
 							</div>
@@ -464,7 +464,7 @@
 				<!-- Thumbnail -->
 				<div class="col-lg-6 mb-30">
 					<div class="applicant-img">
-						<img src="assets/img/dashkit.jpg" alt="dashkit">
+						<img src="assets/img/dashkit.webp" alt="dashkit">
 					</div>
 				</div>
 			</div>
@@ -472,7 +472,7 @@
 				<!-- Thumbnail -->
 				<div class="col-lg-6 mb-30 order-lg-first order-last">
 					<div class="applicant-img applicant-img-2">
-						<img src="assets/img/dashkit.jpg" alt="dashkit">
+						<img src="assets/img/dashkit.webp" alt="dashkit">
 					</div>
 				</div>
 				<!-- Content -->
@@ -546,22 +546,22 @@
 				<div class="col-lg-8">
 					<div class="tab-content" id="myTabContent">
 					  	<div class="tab-pane trun_ideas_contetn fade show active" id="topa" role="tabpanel" aria-labelledby="topa-tab">
-					  		<img src="assets/img/dashbord.png" alt="dashbord">
+					  		<img src="assets/img/dashbord.webp" alt="dashbord">
 					  	</div>
 					  	<div class="tab-pane trun_ideas_contetn fade" id="saasde" role="tabpanel" aria-labelledby="saasde-tab">
-					  		<img src="assets/img/dashbord.png" alt="dashbord">
+					  		<img src="assets/img/dashbord.webp" alt="dashbord">
 					  	</div>
 					  	<div class="tab-pane trun_ideas_contetn fade" id="softwareanaly" role="tabpanel" aria-labelledby="softwareanaly-tab">
-					  		<img src="assets/img/dashbord.png" alt="dashbord">
+					  		<img src="assets/img/dashbord.webp" alt="dashbord">
 					  	</div>
 					  	<div class="tab-pane trun_ideas_contetn fade" id="exchangefeed" role="tabpanel" aria-labelledby="exchangefeed-tab">
-					  		<img src="assets/img/dashbord.png" alt="dashbord">
+					  		<img src="assets/img/dashbord.webp" alt="dashbord">
 					  	</div>
 					  	<div class="tab-pane trun_ideas_contetn fade" id="foremployees" role="tabpanel" aria-labelledby="foremployees-tab">
-					  		<img src="assets/img/dashbord.png" alt="dashbord">
+					  		<img src="assets/img/dashbord.webp" alt="dashbord">
 					  	</div>
 						  <div class="tab-pane trun_ideas_contetn fade" id="foremployeess" role="tabpanel" aria-labelledby="foremployees-tab">
-							<img src="assets/img/dashbord.png" alt="dashbord">
+							<img src="assets/img/dashbord.webp" alt="dashbord">
 						</div>
 					</div>
 				</div>
@@ -763,7 +763,7 @@
 						<div class="testimonial-item">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/3.jpg" alt="testimonial">
+									<img src="assets/img/team/3.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Rachel Adams</h4>
@@ -785,7 +785,7 @@
 						<div class="testimonial-item">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.jpg" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Rachel Adams</h4>
@@ -807,7 +807,7 @@
 						<div class="testimonial-item">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/1.jpg" alt="testimonial">
+									<img src="assets/img/team/1.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Rachel Adams</h4>
@@ -850,7 +850,7 @@
 						<!-- Thumbanil -->
 						<div class="thumbnail">
 							<a href="single.php">
-								<img src="assets/img/blog/1.jpg" alt="img">
+								<img src="assets/img/blog/1.webp" alt="img">
 							</a>
 							<div class="date">
 								<span>04 Dec, 2021</span>
@@ -862,7 +862,7 @@
 							<div class="auth">
 								<ul>
 									<li>
-										<img src="assets/img/user.jpg" alt="img">
+										<img src="assets/img/user.webp" alt="img">
 										<span>In </span>
 										<a href="#">John Baus</a>
 									</li>
@@ -882,7 +882,7 @@
 						<!-- Thumbanil -->
 						<div class="thumbnail">
 							<a href="single.php">
-								<img src="assets/img/blog/2.jpg" alt="img">
+								<img src="assets/img/blog/2.webp" alt="img">
 							</a>
 							<div class="date">
 								<span>04 Dec, 2021</span>
@@ -894,7 +894,7 @@
 							<div class="auth">
 								<ul>
 									<li>
-										<img src="assets/img/user.jpg" alt="img">
+										<img src="assets/img/user.webp" alt="img">
 										<span>In </span>
 										<a href="#">John Baus</a>
 									</li>
@@ -914,7 +914,7 @@
 						<!-- Thumbanil -->
 						<div class="thumbnail">
 							<a href="single.php">
-								<img src="assets/img/blog/3.jpg" alt="img">
+								<img src="assets/img/blog/3.webp" alt="img">
 							</a>
 							<div class="date">
 								<span>04 Dec, 2021</span>
@@ -926,7 +926,7 @@
 							<div class="auth">
 								<ul>
 									<li>
-										<img src="assets/img/user.jpg" alt="img">
+										<img src="assets/img/user.webp" alt="img">
 										<span>In </span>
 										<a href="#">John Baus</a>
 									</li>

@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - Login</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -31,13 +31,13 @@
             <span></span>
         </div>
     </div>
-	<section class="login-form-style3" style="background-image:url('assets/img/login.jpg');">
+	<section class="login-form-style3" style="background-image:url('assets/img/login.webp');">
 		<div class="login-form-style3-main">
 			<div class="login-form-style3-main_full">
 				<div class="login-register_style3-head">
 					<div class="lo-logo mb-20">
 						<a href="index.php">
-							<img src="assets/img/logo.png" alt="img">
+							<img src="assets/img/logo.webp" alt="img">
 						</a>
 					</div>
 					<h2>Login</h2>

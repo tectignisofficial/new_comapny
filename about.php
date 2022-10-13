@@ -30,9 +30,9 @@ if(isset($_POST['submit']))
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - About</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -71,7 +71,7 @@ if(isset($_POST['submit']))
                 </div>
                 <div class="mobile-logo">
                     <a href="index.php">
-                        <img src="assets/img/logo2.png" alt="logo" />
+                        <img src="assets/img/logo2.webp" alt="logo" />
                     </a>
                 </div>
                 <div id="menu" class="text-left">
@@ -114,7 +114,7 @@ if(isset($_POST['submit']))
     </div>
     <!--offcanvas menu area end-->
 	<!-- Start Breadcrumb Area -->
-	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.jpg');">
+	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -177,7 +177,7 @@ if(isset($_POST['submit']))
 				<div class="col-lg-4 offset-lg-1">
 					<div class="about-img-ab">
 						<div class="thumb">
-							<img src="assets/img/tectignis-about-us.jpg" alt="about">
+							<img src="assets/img/tectignis-about-us.webp" alt="about">
 						</div>
 						<div class="con">
 							<h4>Get insights on Search </h4>
@@ -248,7 +248,7 @@ if(isset($_POST['submit']))
 				<div class="col-lg-4 col-md-6 mb-30">
 					<div class="team-item">
 						<div class="thumb">
-							<img src="assets/img/Vedantnaidu1.jpg" alt="team">
+							<img src="assets/img/Vedantnaidu1.webp" alt="team">
 						</div>
 						<div class="content">
 							<div class="left">
@@ -262,7 +262,7 @@ if(isset($_POST['submit']))
 				<div class="col-lg-4 col-md-6 mb-30">
 					<div class="team-item">
 						<div class="thumb">
-							<img src="assets/img/Divyanikeshari.jpg" alt="team">
+							<img src="assets/img/Divyanikeshari.webp" alt="team">
 						</div>
 						<div class="content">
 							<div class="left">
@@ -276,7 +276,7 @@ if(isset($_POST['submit']))
 				<div class="col-lg-4 col-md-6 mb-30">
 					<div class="team-item">
 						<div class="thumb">
-							<img src="assets/img/Maheshniwate.jpg" alt="team">
+							<img src="assets/img/Maheshniwate.webp" alt="team">
 						</div>
 						<div class="content">
 							<div class="left">
@@ -290,7 +290,7 @@ if(isset($_POST['submit']))
 				<div class="col-lg-4 col-md-6 mb-30">
 					<div class="team-item">
 						<div class="thumb">
-							<img src="assets/img/Aniketnangare.jpg" alt="team">
+							<img src="assets/img/Aniketnangare.webp" alt="team">
 						</div>
 						<div class="content">
 							<div class="left">
@@ -304,7 +304,7 @@ if(isset($_POST['submit']))
 				<div class="col-lg-4 col-md-6 mb-30">
 					<div class="team-item">
 						<div class="thumb">
-							<img src="assets/img/Sarveshhiwale.jpg" alt="team">
+							<img src="assets/img/Sarveshhiwale.webp" alt="team">
 						</div>
 						<div class="content">
 							<div class="left">
@@ -318,7 +318,7 @@ if(isset($_POST['submit']))
 				<div class="col-lg-4 col-md-6 mb-30">
 					<div class="team-item">
 						<div class="thumb">
-							<img src="assets/img/Monikagore.jpg" alt="team">
+							<img src="assets/img/Monikagore.webp" alt="team">
 						</div>
 						<div class="content">
 							<div class="left">
@@ -351,7 +351,7 @@ if(isset($_POST['submit']))
 						<div class="testimonial-item">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/3.jpg" alt="testimonial">
+									<img src="assets/img/team/3.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Rachel Adams</h4>
@@ -373,7 +373,7 @@ if(isset($_POST['submit']))
 						<div class="testimonial-item">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/2.jpg" alt="testimonial">
+									<img src="assets/img/team/2.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Rachel Adams</h4>
@@ -395,7 +395,7 @@ if(isset($_POST['submit']))
 						<div class="testimonial-item">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/1.jpg" alt="testimonial">
+									<img src="assets/img/team/1.webp" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Rachel Adams</h4>
@@ -420,7 +420,7 @@ if(isset($_POST['submit']))
 	</section>
 	<!-- End Testimonial Area -->
 	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.png');">
+	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

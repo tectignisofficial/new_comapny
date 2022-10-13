@@ -31,9 +31,9 @@ if(isset($_POST['submit']))
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -72,7 +72,7 @@ if(isset($_POST['submit']))
                 </div>
                 <div class="mobile-logo">
                     <a href="index.php">
-                        <img src="assets/img/logo.png" alt="logo" />
+                        <img src="assets/img/logo.webp" alt="logo" />
                     </a>
                 </div>
                 <div id="menu" class="text-left">
@@ -128,7 +128,7 @@ if(isset($_POST['submit']))
     </div>
     <!--offcanvas menu area end-->
 	<!-- Start Breadcrumb Area -->
-	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.jpg');">
+	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -153,7 +153,7 @@ if(isset($_POST['submit']))
 					<!-- Details Content -->
 					<div class="blog-details mb-30">
 						<div class="thumbnail">
-							<img src="assets/img/blog/2.jpg" alt="img">
+							<img src="assets/img/blog/2.webp" alt="img">
 						</div>
 						<div class="content">
 							<div class="meta">
@@ -165,10 +165,10 @@ if(isset($_POST['submit']))
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
 							<div class="row">
 								<div class="col-lg-6 mb-30">
-									<img src="assets/img/blog/1.jpg" alt="blog">
+									<img src="assets/img/blog/1.webp" alt="blog">
 								</div>
 								<div class="col-lg-6 mb-30">
-									<img src="assets/img/blog/3.jpg" alt="blog">
+									<img src="assets/img/blog/3.webp" alt="blog">
 								</div>
 							</div>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
@@ -200,7 +200,7 @@ if(isset($_POST['submit']))
 						<ul>
 							<li class="single-comment">
 								<div class="thum">
-									<img src="assets/img/user.jpg" alt="thumb">
+									<img src="assets/img/user.webp" alt="thumb">
 								</div>
 								<div class="content">
 									<h4><a href="#">Jonathom Doe</a></h4>
@@ -211,7 +211,7 @@ if(isset($_POST['submit']))
 								<ul class="comment-reply">
 									<li>
 										<div class="thum">
-											<img src="assets/img/user.jpg" alt="thumb">
+											<img src="assets/img/user.webp" alt="thumb">
 										</div>
 										<div class="content">
 											<h4><a href="#">Jonathom Doe</a></h4>
@@ -224,7 +224,7 @@ if(isset($_POST['submit']))
 							</li>
 							<li class="single-comment">
 								<div class="thum">
-									<img src="assets/img/user.jpg" alt="thumb">
+									<img src="assets/img/user.webp" alt="thumb">
 								</div>
 								<div class="content">
 									<h4><a href="#">Jonathom Doe</a></h4>
@@ -295,7 +295,7 @@ if(isset($_POST['submit']))
                             <div class="item mb-20">
                                 <div class="thubnail">
                                     <a href="single.php">
-                                        <img src="assets/img/blog/1.jpg" alt="blog">
+                                        <img src="assets/img/blog/1.webp" alt="blog">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -306,7 +306,7 @@ if(isset($_POST['submit']))
                             <div class="item mb-20">
                                 <div class="thubnail">
                                     <a href="single.php">
-                                        <img src="assets/img/blog/2.jpg" alt="blog">
+                                        <img src="assets/img/blog/2.webp" alt="blog">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -317,7 +317,7 @@ if(isset($_POST['submit']))
                             <div class="item mb-20">
                                 <div class="thubnail">
                                     <a href="single.php">
-                                        <img src="assets/img/blog/3.jpg" alt="blog">
+                                        <img src="assets/img/blog/3.webp" alt="blog">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -328,7 +328,7 @@ if(isset($_POST['submit']))
                             <div class="item">
                                 <div class="thubnail">
                                     <a href="single.php">
-                                        <img src="assets/img/blog/1.jpg" alt="blog">
+                                        <img src="assets/img/blog/1.webp" alt="blog">
                                     </a>
                                 </div>
                                 <div class="content">
@@ -379,7 +379,7 @@ if(isset($_POST['submit']))
 	</section>
 	<!-- End Blog Area -->
 	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.png');">
+	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

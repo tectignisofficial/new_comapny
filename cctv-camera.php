@@ -30,9 +30,9 @@ if(isset($_POST['submit']))
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - CCTV Camera</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -71,7 +71,7 @@ if(isset($_POST['submit']))
                 </div>
                 <div class="mobile-logo">
                     <a href="index.php">
-                        <img src="assets/img/logo.png" alt="logo" />
+                        <img src="assets/img/logo.webp" alt="logo" />
                     </a>
                 </div>
                 <div id="menu" class="text-left">
@@ -128,7 +128,7 @@ if(isset($_POST['submit']))
     <!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->
-	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.jpg');">
+	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -161,12 +161,12 @@ if(isset($_POST['submit']))
 					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,</p>
 				</div>
 				<div class="col-lg-6 mb-30">
-					<img src="assets/img/1.png" alt="serices">
+					<img src="assets/img/1.webp" alt="serices">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6 mb-30 order-lg-first order-last">
-					<img src="assets/img/about.png" alt="img">
+					<img src="assets/img/about.webp" alt="img">
 				</div>
 				<div class="col-lg-6 mb-30 align-self-center">
 					<h3>Ut enim ad minim veniam, quis nostrud exercitation</h3>
@@ -190,7 +190,7 @@ if(isset($_POST['submit']))
 	</section>
 	<!-- End Services Area -->
 	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.png');">
+	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

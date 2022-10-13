@@ -30,9 +30,9 @@ if(isset($_POST['submit']))
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - Portfolio Datails</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -71,7 +71,7 @@ if(isset($_POST['submit']))
                 </div>
                 <div class="mobile-logo">
                     <a href="index.php">
-                        <img src="assets/img/logo2.png" alt="logo" />
+                        <img src="assets/img/logo2.webp" alt="logo" />
                     </a>
                 </div>
                 <div id="menu" class="text-left">
@@ -115,7 +115,7 @@ if(isset($_POST['submit']))
     <!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->
-	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.jpg');">
+	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -161,15 +161,15 @@ if(isset($_POST['submit']))
 				<div class="col-lg-8 order-lg-first">
 					<div class="portfolio-details-content">
 						<div class="thumbnail mb-20">
-							<img class="w-100" src="assets/img/portfolio/01.jpg" alt="img">
+							<img class="w-100" src="assets/img/portfolio/01.webp" alt="img">
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepte ursint occaecat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepte ursint occaecat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<div class="row">
 							<div class="col-md-6 mb-20">
-								<img src="assets/img/portfolio/05.jpg" alt="img">
+								<img src="assets/img/portfolio/05.webp" alt="img">
 							</div>
 							<div class="col-md-6 mb-20">
-								<img src="assets/img/portfolio/02.jpg" alt="img">
+								<img src="assets/img/portfolio/02.webp" alt="img">
 							</div>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepte ursint occaecat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepte ursint occaecat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -181,7 +181,7 @@ if(isset($_POST['submit']))
 	</section>
 	<!-- End Portfolio Details -->
 	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.png');">
+	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">

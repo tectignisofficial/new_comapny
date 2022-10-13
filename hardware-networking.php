@@ -30,9 +30,9 @@ if(isset($_POST['submit']))
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - Har Networking</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -76,7 +76,7 @@ if(isset($_POST['submit']))
                 </div>
                 <div class="mobile-logo">
                     <a href="index.php">
-                        <img src="assets/img/logo2.png" alt="logo" />
+                        <img src="assets/img/logo2.webp" alt="logo" />
                     </a>
                 </div>
                 <div id="menu" class="text-left">
@@ -120,7 +120,7 @@ if(isset($_POST['submit']))
     <!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->
-	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.jpg');">
+	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -153,7 +153,7 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-sm-6 mb-30">
 						<div class="info-box-s1 h-100">
 							<div class="icon">
-								<img src="assets/img/icon/cod.png" alt="code">
+								<img src="assets/img/icon/cod.webp" alt="code">
 							</div>
 							<div class="content">
 								<h4 class="text-gradient">Computer</h4>
@@ -165,7 +165,7 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-sm-6 mb-30">
 						<div class="info-box-s1 h-100">
 							<div class="icon">
-								<img src="assets/img/icon/meas.png" alt="mase">
+								<img src="assets/img/icon/meas.webp" alt="mase">
 							</div>
 							<div class="content">
 								<h4 class="text-gradient">Network</h4>
@@ -177,7 +177,7 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-sm-6 mb-30">
 						<div class="info-box-s1 h-100">
 							<div class="icon">
-								<img src="assets/img/icon/do.png" alt="doc">
+								<img src="assets/img/icon/do.webp" alt="doc">
 							</div>
 							<div class="content">
 								<h4 class="text-gradient">Security</h4>
@@ -191,7 +191,7 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-sm-6 mb-30">
 						<div class="info-box-s1 h-100">
 							<div class="icon">
-								<img src="assets/img/icon/cod.png" alt="code">
+								<img src="assets/img/icon/cod.webp" alt="code">
 							</div>
 							<div class="content">
 								<h4 class="text-gradient">Software</h4>
@@ -203,7 +203,7 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-sm-6 mb-30">
 						<div class="info-box-s1 h-100">
 							<div class="icon">
-								<img src="assets/img/icon/meas.png" alt="mase">
+								<img src="assets/img/icon/meas.webp" alt="mase">
 							</div>
 							<div class="content">
 								<h4 class="text-gradient">CCTV</h4>
@@ -215,7 +215,7 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-sm-6 mb-30">
 						<div class="info-box-s1 h-100">
 							<div class="icon">
-								<img src="assets/img/icon/do.png" alt="doc">
+								<img src="assets/img/icon/do.webp" alt="doc">
 							</div>
 							<div class="content">
 								<h4 class="text-gradient">Virtualization</h4>
@@ -241,7 +241,7 @@ if(isset($_POST['submit']))
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/1.png" alt="icon">
+										<img src="assets/img/icon/1.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>Wireless Technology</h4>
@@ -253,7 +253,7 @@ if(isset($_POST['submit']))
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>iPhone Application Development</h4>
@@ -265,7 +265,7 @@ if(isset($_POST['submit']))
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>Tablet Application Development</h4>
@@ -277,7 +277,7 @@ if(isset($_POST['submit']))
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>iPad Application Development</h4>
@@ -340,7 +340,7 @@ if(isset($_POST['submit']))
 					<!-- Thumbnail -->
 					<div class="col-lg-6 mb-30">
 						<div class="applicant-img">
-							<img src="assets/img/dashkit.jpg" alt="dashkit">
+							<img src="assets/img/dashkit.webp" alt="dashkit">
 						</div>
 					</div>
 				</div>
@@ -348,7 +348,7 @@ if(isset($_POST['submit']))
 					<!-- Thumbnail -->
 					<div class="col-lg-6 mb-30 order-lg-first order-last">
 						<div class="applicant-img applicant-img-2">
-							<img src="assets/img/dashkit.jpg" alt="dashkit">
+							<img src="assets/img/dashkit.webp" alt="dashkit">
 						</div>
 					</div>
 					<!-- Content -->

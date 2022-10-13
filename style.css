@@ -1807,7 +1807,7 @@ hr.vertical {
 	position: absolute;
 	width: 48%;
 	height: 90%;
-	background-image: url('assets/img/job.png');
+	background-image: url('assets/img/job.webp');
 	top: 130px;
 	right: 29px;
 	z-index: -1;

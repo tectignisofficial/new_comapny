@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - Careers</title>
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="mobile-logo">
                     <a href="index.php">
-                        <img src="assets/img/logo2.png" alt="logo" />
+                        <img src="assets/img/logo2.webp" alt="logo" />
                     </a>
                 </div>
                 <div id="menu" class="text-left">
@@ -301,18 +301,18 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="help-desk-img">
-						<img class="thumbnail" src="assets/img/job.jpg" alt="img">
+						<img class="thumbnail" src="assets/img/job.webp" alt="img">
 						<div class="hdi-box-text">
 							<i class="fas fa-check"></i>
 							<h2>Found <span class="text-gradient">299+ Jobs</span></h2>
 							<div class="hdi-list">
 								<div class="left">
 									<ul>
-										<li><img src="assets/img/icon/index.png" alt="img"></li>
-										<li><img src="assets/img/icon/index1.png" alt="img"></li>
-										<li><img src="assets/img/icon/index2.png" alt="img"></li>
-										<li><img src="assets/img/icon/index.png" alt="img"></li>
-										<li><img src="assets/img/icon/index4.png" alt="img"></li>
+										<li><img src="assets/img/icon/index.webp" alt="img"></li>
+										<li><img src="assets/img/icon/index1.webp" alt="img"></li>
+										<li><img src="assets/img/icon/index2.webp" alt="img"></li>
+										<li><img src="assets/img/icon/index.webp" alt="img"></li>
+										<li><img src="assets/img/icon/index4.webp" alt="img"></li>
 									</ul>
 								</div>
 								<div class="right">
@@ -525,7 +525,7 @@
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/1.png" alt="icon">
+										<img src="assets/img/icon/1.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>Fully Responsive</h4>
@@ -537,7 +537,7 @@
 							<div class="col-sm-6 mb-30">
 								<div class="info-box-s2">
 									<div class="icon">
-										<img src="assets/img/icon/2.png" alt="icon">
+										<img src="assets/img/icon/2.webp" alt="icon">
 									</div>
 									<div class="content">
 										<h4>24/7 Support</h4>
@@ -552,7 +552,7 @@
 				<!-- Image -->
 				<div class="col-lg-6">
 					<div class="analytics-toll-img">
-						<img src="assets/img/1.png" alt="img">
+						<img src="assets/img/1.webp" alt="img">
 						<div class="vedio-btn-ab">
 							<a data-rel="lightcase" href="https://player.vimeo.com/video/553110309?h=dc4ee31dc4"><i class="fas fa-play"></i> <span>Check This Vedio</span></a>
 						</div>
@@ -612,7 +612,7 @@
 				<div class="col-12 col-lg-5">
 					<div class="usefull-resourses-form">
 						<div class="thum">
-							<img src="assets/img/photo-2.jpg" alt="img">
+							<img src="assets/img/photo-2.webp" alt="img">
 						</div>
 						<div class="use_form">
 							<form action="#">
@@ -647,7 +647,7 @@
 	</section>
 	<!-- End useful resource Area -->
 	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.png');">
+	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
