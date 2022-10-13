@@ -177,8 +177,9 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body">
+				<form method="POST">
 					<div class="contact-form">
-						<form id="contact-form" action="index.php" method="POST">
+					
 							<div class="row">
 								<div class="col-md-6">
 									<div class="single-input">
@@ -194,7 +195,7 @@
 								</div>
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="text" name="phone" placeholder="Your Phone">
+										<input type="tel" name="phone" placeholder="Your Phone">
 										<i class="fas fa-mobile-alt"></i>
 									</div>
 								</div>
@@ -202,6 +203,19 @@
 									<div class="single-input">
 										<input type="text" name="subject" placeholder="Your Subjects">
 										<i class="fas fa-file-alt"></i>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="single-input">
+										<select class="form-select" id="sel" name="services" aria-label="Default select example">
+											<option selected>Services</option>
+											<option>Website Designing</option>
+											<option>App Development</option>
+											<option>Customized Software</option>
+											<option>Digital Marketing</option>
+											<option>Graphics Designing</option>
+
+											</select>
 									</div>
 								</div>
 								<div class="col-12">
@@ -215,9 +229,10 @@
 									<button type="submit" name="submit">Send Message</button>
 								</div>
 							</div>
-						</form>
-						<p class="ajax-response"></p>
+						
+						<!-- <p class="ajax-response"></p> -->
 					</div>
+</form>
 				</div>
 
 			</div>
