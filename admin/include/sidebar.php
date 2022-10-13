@@ -36,13 +36,15 @@
             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
                 <li class=" nav-item"><a class="d-flex align-items-center" href="index.php"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span></a>
                 </li>
-               
-                <li class=" nav-item"><a class="d-flex align-items-center" href="team.php"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Team</span></a></li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="blog_table.php"><i data-feather="copy"></i><span class="menu-title text-truncate" data-i18n="Form Elements">Blog </span></a>
-                        </li>
-                        <li class=" nav-item"><a class="d-flex align-items-center" href="app-kanban.html"><i data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="Kanban">Settings</span></a>
-                
-                    <ul class="menu-content">
+                <li class=" nav-item"><a class="d-flex align-items-center" href="leads.php"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Leads">Leads</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="team.php"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Teams">Teams</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="blog.php"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Blogs</span></a></li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="client.php"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">Client</span></a></li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="portfolio.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Portfolio</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="app-kanban.html"><i data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="Kanban">Settings</span></a><ul class="menu-content">
                         <li><a class="d-flex align-items-center" href="google_analysis.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="List">Google Analysis</span></a>
                         </li>
                         <li><a class="d-flex align-items-center" href="razorpay.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Razorpay</span></a>
@@ -50,12 +52,6 @@
                         <li><a class="d-flex align-items-center" href="connectivity.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Connectivity</span></a>
                         </li>
                     </ul>
-                </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="portfolio.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Portfolio</span></a>
-                </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="request_quote.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples">Request Quote</span></a>
-                </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="logout.php"><i data-feather="log-out"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Logout</span></a>
                 </li>
             </ul>
         </div>
