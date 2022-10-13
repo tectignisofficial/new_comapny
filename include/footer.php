@@ -9,7 +9,7 @@
 						<div class="f-widgets-item">
 							<div class="f-logo">
 								<a href="#">
-									<img src="assets/img/tlogo.png" width="100" alt="logo">
+									<img src="assets/img/tlogo.png" width="70%" alt="logo">
 								</a>
 							</div>
 							<p><a href="#"></a><i class="bi bi-geo-alt-fill"></i> Aashiyana CHS Shop No 05, Sector 11,
