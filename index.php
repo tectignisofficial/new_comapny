@@ -48,6 +48,9 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 	<style>
+		.owl-item{
+			height:100% !important;
+		}
 		.list li::before {
 			content: "\2022";
 			color: #ff9900;
@@ -1013,7 +1016,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									</div>
 								</div>
 							</div>
-							<div class="testimonial-single-footer">
+							<div class="testimonial-single-footer h-100">
 								<p>I really needed a Ecommerce website, they build for me. This is the best IT solution
 									company in Navi Mumbai. I am also happy that I got my Ecommerce website build with
 									the marketing package with best discount. Their marketing is so amazing that I am
@@ -1025,7 +1028,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/1.jpg" alt="testimonial">
+									<img src="assets/img/team/2.png" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
 									<h4>Bhavesh Gaikar</h4>
@@ -1039,7 +1042,103 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									</div>
 								</div>
 							</div>
-							<div class="testimonial-single-footer">
+							<div class="testimonial-single-footer h-100">
+								<p>I have tried many digital marketing company in navi mumbai but never got the result
+									oriented service for digital marketing. But from past 1 years I have seen a more
+									changes in my SEO results almost all of my keyword are ranking on google and I am
+									also happy with their creative work on my social media pages. Thank you tectignis
+									team..</p>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="testimonial-item h-100">
+							<div class="testimonial-single-header">
+								<div class="thumbnail">
+									<img src="assets/img/team/2.png" alt="testimonial">
+								</div>
+								<div class="testimonial-title">
+									<h4>pragati ghurup</h4>
+									<!-- <p>Regular Clients</p> -->
+									<div class="ratting-tes">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-single-footer h-100">
+								<p>Best website designing company to work with. They will first understand your requirement, suggest you options, work on a solution & deliver the best product within decided timeframe. Friendly & knowledgable staff at a reasonable cost. Thanks for all your effort in designing Tectignis IT Solutions.</p>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="testimonial-item h-100">
+							<div class="testimonial-single-header">
+								<div class="thumbnail">
+									<img src="assets/img/team/2.png" alt="testimonial">
+								</div>
+								<div class="testimonial-title">
+									<h4>Madhur Chipkar</h4>
+									<p>Sea Pearl Khavane</p>
+									<div class="ratting-tes">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-single-footer h-100">
+								<p>Tectignis IT Solution built my hotel business a great website that really helps current and potential customers get a good feel for my company. I have been very happy with the customer service and the attention to detail. </p>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="testimonial-item h-100">
+							<div class="testimonial-single-header">
+								<div class="thumbnail">
+									<img src="assets/img/team/2.png" alt="testimonial">
+								</div>
+								<div class="testimonial-title">
+									<h4>Bhavesh Gaikar</h4>
+									<!-- <p></p> -->
+									<div class="ratting-tes">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-single-footer h-100">
+								<p>I have tried many digital marketing company in navi mumbai but never got the result
+									oriented service for digital marketing. But from past 1 years I have seen a more
+									changes in my SEO results almost all of my keyword are ranking on google and I am
+									also happy with their creative work on my social media pages. Thank you tectignis
+									team..</p>
+							</div>
+						</div>
+						<!-- Single -->
+						<div class="testimonial-item h-100">
+							<div class="testimonial-single-header">
+								<div class="thumbnail">
+									<img src="assets/img/team/2.png" alt="testimonial">
+								</div>
+								<div class="testimonial-title">
+									<h4>Bhavesh Gaikar</h4>
+									<!-- <p>Regular Clients</p> -->
+									<div class="ratting-tes">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-single-footer h-100">
 								<p>I have tried many digital marketing company in navi mumbai but never got the result
 									oriented service for digital marketing. But from past 1 years I have seen a more
 									changes in my SEO results almost all of my keyword are ranking on google and I am
