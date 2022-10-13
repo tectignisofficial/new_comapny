@@ -1,3 +1,29 @@
+<?php
+include("include/config.php");
+
+if(isset($_POST['submit'])){
+
+ 
+  $companyName=$_POST['companyName'];
+  $email=$_POST['email'];
+  $GST=$_POST['GST'];
+  $CIN=$_POST['CIN'];
+  $phoneNumber=$_POST['phoneNumber'];
+  $address=$_POST['address'];
+
+
+  $sql="UPDATE `account` SET `companyName`='$companyName', `email`='$email', `GST`='$GST', 
+  `CIN`='$CIN', `mobile`='$phoneNumber', `address`='$address' ";
+  if (mysqli_query($conn, $sql)){
+    header("location:page-account.php");
+ } else {
+    echo "connection failed !";
+ }
+ 
+}
+
+?>
+
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
 <!-- BEGIN: Head-->
@@ -119,36 +145,44 @@
                        
 
                                 <!-- form -->
-                                <form class="validate-form mt-2 pt-50">
+                                <form class="validate-form mt-2 pt-50"  method="POST" novalidate>
+                                <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from account");
+                       
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
                                     <div class="row">
                                         <div class="col-12 col-sm-6 mb-1">
                                             <label class="form-label" for="accountFirstName">Company Name</label>
-                                            <input type="text" class="form-control" id="accountFirstName" name="firstName" placeholder="John" value="John" data-msg="Please enter first name" />
+                                            <input type="text" class="form-control" id="accountFirstName" name="companyName" placeholder="John" value="<?php echo $arr['companyName'];?>" data-msg="Please enter first name" />
                                         </div>
                                         <div class="col-12 col-sm-6 mb-1">
                                             <label class="form-label" for="accountEmail">Email</label>
-                                            <input type="email" class="form-control" id="accountEmail" name="email" placeholder="Email" value="johndoe@gmail.com" />
+                                            <input type="email" class="form-control" id="accountEmail" name="email" placeholder="Email" value="<?php echo $arr['email'];?>" />
                                         </div>
                                         <div class="col-12 col-sm-6 mb-1">
                                             <label class="form-label" for="accountLastName">GST No</label>
-                                            <input type="text" class="form-control" id="accountLastName" name="lastName" placeholder="Doe" value="Doe" data-msg="Please enter last name" />
+                                            <input type="text" class="form-control" id="accountLastName" name="GST" placeholder="Doe" value="<?php echo $arr['GST'];?>" data-msg="Please enter last name" />
                                         </div>
                                         <div class="col-12 col-sm-6 mb-1">
                                             <label class="form-label" for="accountOrganization">CIN</label>
-                                            <input type="text" class="form-control" id="accountOrganization" name="organization" placeholder="Organization name" value="PIXINVENT" />
+                                            <input type="text" class="form-control" id="accountOrganization" name="CIN" placeholder="Organization name" value="<?php echo $arr['CIN'];?>" />
                                         </div>
                                         <div class="col-12 col-sm-6 mb-1">
                                             <label class="form-label" for="accountPhoneNumber">Phone Number</label>
-                                            <input type="text" class="form-control account-number-mask" id="accountPhoneNumber" name="phoneNumber" placeholder="Phone Number" value="457 657 1237" />
+                                            <input type="text" class="form-control account-number-mask" id="accountPhoneNumber" name="phoneNumber" placeholder="Phone Number" value="<?php echo $arr['mobile'];?>" />
                                         </div>
                                         <div class="col-12 col-sm-6 mb-1">
                                             <label class="form-label" for="accountAddress">Address</label>
-                                            <input type="text" class="form-control" id="accountAddress" name="address" placeholder="Your Address" />
+                                            <input type="text" class="form-control" id="accountAddress" name="address" value="<?php echo $arr['address'];?>" placeholder="Your Address" />
                                         </div>
                                         <div class="col-12">
-                                            <button type="submit" class="btn btn-primary mt-1 me-1">Save changes</button>
+                                            <button type="submit" class="btn btn-primary mt-1 me-1" name="submit">Save changes</button>
                                         </div>
                                     </div>
+                                    <?php   } ?>
+
                                 </form>
                                 <!--/ form -->
                             </div>

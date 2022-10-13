@@ -28,6 +28,34 @@ if(isset($_POST['submit-razorpay'])){
    
   }
   
+  
+if(isset($_POST['submit-task'])){
+
+ 
+    $task_key=$_POST['task_key'];
+    $sql="UPDATE `taskManager` SET `key`='$task_key' ";
+    if (mysqli_query($conn, $sql)){
+      header("location:page-API.php");
+   } else {
+      echo "connection failed !";
+   }
+   
+  }
+  
+  if(isset($_POST['submit-fb'])){
+
+ 
+    $key_fb=$_POST['key_fb'];
+    $sql="UPDATE `fbPixel` SET `key`='$key_fb' ";
+    if (mysqli_query($conn, $sql)){
+      header("location:page-API.php");
+   } else {
+      echo "connection failed !";
+   }
+   
+  }
+  
+
 
 ?>
 
@@ -170,9 +198,9 @@ if(isset($_POST['submit-razorpay'])){
                                     </form>
                             </div>
                         </div>
-<!-- Tag Manager -->
+                        <!-- Tag Manager -->
 
-<div class="card">
+                          <div class="card">
                             <div class="card-header border-bottom">
                                 <h4 class="card-title">Tag Manager</h4>
                             </div>
@@ -181,26 +209,20 @@ if(isset($_POST['submit-razorpay'])){
                                         <div class="row g-1">
                                         <?php 
                         
-                        $sql=mysqli_query($conn,"select * from razorpay");
+                        $sql=mysqli_query($conn,"select * from taskManager");
                        
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
                                             
-                                            <div class="col-md-4 col-12 mb-3 position-relative">
+                                            <div class="col-12 mb-3 position-relative">
                                             <label class="form-label" for="validationTooltip01">Secret Key</label>
                                             <div class=" input-group input-group-merge form-password-toggle">
                                            
-                                            <input class="form-control form-control-merge" id="secret_key" type="password" name="secret_key" value="<?php echo $arr['secret_key'];?>"  aria-describedby="login-password" tabindex="2" /><span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
+                                            <textarea class="form-control form-control-merge" id="secret_key" type="password" name="task_key" value=""  aria-describedby="login-password" tabindex="2" ><?php echo $arr['key'];?></textarea>
                                         </div>
                                             </div>
 
-                                            <div class="col-md-4 col-12 mb-3 position-relative">
-                                            <label class="form-label" for="validationTooltip02">UPI Key </label>
-                                        <div class=" input-group input-group-merge form-password-toggle">
-                                     
-                                            <input class="form-control form-control-merge" id="upi_key" type="password" name="upi_key" value="<?php echo $arr['upi_key'];?>"  aria-describedby="login-password" tabindex="2" /><span class="input-group-text cursor-pointer"><i data-feather="eye"></i></span>
-                                        </div>
-                                            </div>
+                                            
 
                                            
 
@@ -208,7 +230,7 @@ if(isset($_POST['submit-razorpay'])){
                                             
                                             <?php   } ?>
                                         </div>
-                                        <button class="btn btn-primary" name="submit-razorpay" type="submit">Submit</button>
+                                        <button class="btn btn-primary" name="submit-task" type="submit">Submit</button>
                                     </form>
                             </div>
                         </div>
@@ -268,7 +290,7 @@ if(isset($_POST['submit-razorpay'])){
                                         <div class="row g-1">
                                         <?php 
                         
-                        $sql=mysqli_query($conn,"select * from razorpay");
+                        $sql=mysqli_query($conn,"select * from fbPixel");
                        
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
@@ -277,19 +299,12 @@ if(isset($_POST['submit-razorpay'])){
                                             <label class="form-label" for="validationTooltip01">Secret Key</label>
                                             <div class=" input-group input-group-merge form-password-toggle">
                                            
-                                            <textarea class="form-control form-control-merge" id="secret_key" type="password" name="secret_key" value=""  aria-describedby="login-password" tabindex="2" ><?php echo $arr['secret_key'];?></textarea>
+                                            <textarea class="form-control form-control-merge" id="secret_key" type="password" name="key_fb" value=""  aria-describedby="login-password" tabindex="2" ><?php echo $arr['key'];?></textarea>
                                         </div>
                                             </div>
-
-                                           
-
-                                           
-
-
-                                            
                                             <?php   } ?>
                                         </div>
-                                        <button class="btn btn-primary" name="submit-razorpay" type="submit">Submit</button>
+                                        <button class="btn btn-primary" name="submit-fb" type="submit">Submit</button>
                                     </form>
                             </div>
                         </div>
