@@ -16,6 +16,8 @@
 								Plot No 29, Kamothe, Navi Mumbai, Maharashtra
 								410209</a></p>
 							<ul>
+								<li><a href="tel:9987705688"><i class="bi bi-telephone-inbound"></i> +91 9987705688</a>
+								</li>
 								<li><a href="tel:9987805688"><i class="bi bi-telephone-inbound"></i> +91 9987805688</a>
 								</li>
 								<li><a href="#"><i class="bi bi-envelope"></i> info@tectignis.in</a></li>
