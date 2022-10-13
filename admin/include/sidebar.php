@@ -35,11 +35,11 @@
                 <li class=" nav-item"><a class="d-flex align-items-center" href="portfolio.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples"> Portfolio</span></a>
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="app-kanban.html"><i data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="Kanban">Settings</span></a><ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="google_analysis.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="List">Google Analysis</span></a>
+                        <li><a class="d-flex align-items-center" href="page-account.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Account</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="razorpay.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Razorpay</span></a>
+                        <li><a class="d-flex align-items-center" href="page-API.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Security</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="connectivity.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Connectivity</span></a>
+                        <li><a class="d-flex align-items-center" href="page-connection.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Connections</span></a>
                         </li>
                     </ul>
                 </li>
