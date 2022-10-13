@@ -1,3 +1,11 @@
+<?php
+session_start();
+if(!isset($_SESSION['id']))
+{                                                                                       
+  header("location:adminlogin.php");
+}
+
+?>
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
 <!-- BEGIN: Head-->
