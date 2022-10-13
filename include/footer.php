@@ -81,6 +81,7 @@
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 		<!-- Footer Bottom -->
@@ -96,5 +97,21 @@
 				</div>
 			</div>
 		</div>
+		<div id="footer" class="request-area">
+
+
+		<a class="footer-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+			Request A Quote
+		</a>
+		<a class="whatsApp_icon"
+			href="https://api.whatsapp.com/send?phone=+919987805688&amp;text=Hello,%20I%20am%20interested%20in%20your%20services."
+			rel="nofollow" target="_blank">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+
+
+
+	</div>
 	</footer>
+
 	<!-- End Footer Area -->

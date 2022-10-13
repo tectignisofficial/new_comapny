@@ -1,7 +1,7 @@
 <?php
 include("include/config.php");
 ?>
-
+ 
 <?php
 if(isset($_POST['dnkk'])){
     $query=mysqli_query($conn,"select * from blog where id='".$_POST['dnkk']."'");

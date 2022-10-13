@@ -89,7 +89,9 @@ include('include/config.php');
                                             <th>Email</th>
                                             <th>Mobile No.</th>
                                             <th>Subject</th>
+                                            <th>Services</th>
                                             <th>Message</th>
+                                            <th>Submited On</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -103,9 +105,11 @@ include('include/config.php');
                                             <td><?php echo $count;?> </td>
                                             <td><?php echo $arr['name'];?> </td>
                                             <td><?php echo $arr['email'];?> </td>
-                                            <td><?php echo $arr['mob_no'];?> </td>
+                                            <td><?php echo $arr['phone'];?> </td>
                                             <td><?php echo $arr['subject'];?> </td>
+                                            <td><?php echo $arr['services'];?> </td>
                                             <td><?php echo $arr['message'];?> </td>
+                                            <td><?php echo $arr['created_on'];?> </td>
                                         </tr>
                                         <?php $count++;  } ?>
                                     </tbody>
