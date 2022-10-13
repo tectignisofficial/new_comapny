@@ -48,8 +48,6 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 	<style>
-
-
 		.list li::before {
 			content: "\2022";
 			color: #ff9900;
@@ -90,7 +88,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				box-shadow: none;
 				padding: 0 15px 30px;
 			}
-			.mbView{
+
+			.mbView {
 				padding-top: 3.5rem;
 			}
 		}
@@ -161,7 +160,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				data-wf-ignore="true">
 			<source
 				src="https://uploads-ssl.webflow.com/5d505d4a8e83099d58757312/625fee81a8046c7e2f641a5e_spark_dribbbles-transcode.webm"
-				data-wf-ignore="true"></video>
+				data-wf-ignore="true">
+		</video>
 
 		<div class="container">
 			<div class="row">
@@ -486,7 +486,9 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								</div>
 								<div class="content">
 									<h4> Undiminished quality </h4>
-									<p>Quality of the edited video will remain the same as the quality of the original video. There wouldn’t be any loss of pixels after editing, which doesn’t usually happen if you use an online editing tool.</p>
+									<p>Quality of the edited video will remain the same as the quality of the original
+										video. There wouldn’t be any loss of pixels after editing, which doesn’t usually
+										happen if you use an online editing tool.</p>
 								</div>
 							</div>
 							<!-- Single -->
@@ -496,7 +498,9 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								</div>
 								<div class="content">
 									<h4>Unparalleled customer experience</h4>
-									<p>We’re obsessed with serving you and making sure you get fully satisfied. In case of any changes/ modifications in the edited video, feel free to reach out to us and we’ll incorporate them proactively.</p>
+									<p>We’re obsessed with serving you and making sure you get fully satisfied. In case
+										of any changes/ modifications in the edited video, feel free to reach out to us
+										and we’ll incorporate them proactively.</p>
 								</div>
 							</div>
 						</div>
@@ -563,8 +567,13 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Ecommerce Website Design & Development</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Tectignis is a Magento Solution Company with deep skills in providing Magento Services for your robust eCommerce portal. We cater to your needs by crafting a tailor-made solution with Magento Services & Magento Integration as per your specifications.</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Ecommerce
+											Website Design & Development</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Tectignis is a Magento
+											Solution Company with deep skills in providing Magento Services for your
+											robust eCommerce portal. We cater to your needs by crafting a tailor-made
+											solution with Magento Services & Magento Integration as per your
+											specifications.</p>
 									</div>
 								</div>
 							</div>
@@ -627,8 +636,12 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Social Media Management</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Don’t just engage followers. Convert them into loyal customers. Our social media marketing services make an impact where it matters most—the bottom line of your income statement!</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Social
+											Media Management</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Don’t just engage followers.
+											Convert them into loyal customers. Our social media marketing services make
+											an impact where it matters most—the bottom line of your income statement!
+										</p>
 									</div>
 								</div>
 							</div>
@@ -657,9 +670,14 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Website Design &
-									Development</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Tectignis is a professional web designing & developing company that offers affordable web designing services by empowering individuals, teams and organizations in the most efficient manner. The web designers at Tectignis have the creative talent and technical expertise to develop websites.</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Website
+											Design &
+											Development</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Tectignis is a professional
+											web designing & developing company that offers affordable web designing
+											services by empowering individuals, teams and organizations in the most
+											efficient manner. The web designers at Tectignis have the creative talent
+											and technical expertise to develop websites.</p>
 									</div>
 								</div>
 							</div>
@@ -669,7 +687,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									<img src="assets/img/website-design-and-development.jpg" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
-									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">Benefits OF Website Design & Development</p>
+									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">Benefits OF
+										Website Design & Development</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
 										<li>Easy To Navigate</li>
 										<li>Security</li>
@@ -687,8 +706,11 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<div class="col-lg-10 offset-lg-2 text-start">
 									<div class="">
 										<p class="mb-3"
-											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Google Ads</p>
-										<p style="color:rgb(90, 90, 90); font-size: 17px;">Get all the traffic from Google to your website! Divert people searching on Google about your products and services to your website.</p>
+											style="color:rgb(31, 31, 31); font-size: 25px; font-weight: 600;">Google Ads
+										</p>
+										<p style="color:rgb(90, 90, 90); font-size: 17px;">Get all the traffic from
+											Google to your website! Divert people searching on Google about your
+											products and services to your website.</p>
 									</div>
 								</div>
 							</div>
@@ -698,7 +720,8 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 									<img src="assets/img/google-ads.webp" alt="dashbord">
 								</div>
 								<div class="col-lg-6 text-start mbView" style="padding-left: 45px;">
-									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">Our Google AdWords team mainly concentrates on-</p>
+									<p style="color:rgb(31, 31, 31); font-size: 20px; font-weight: 600;">Our Google
+										AdWords team mainly concentrates on-</p>
 									<ul class="list" style="line-height:40px; color:rgb(90, 90, 90);  font-size: 17px;">
 										<li>High-Quality Keyword Research</li>
 										<li>High-Quality Campaigns</li>
@@ -943,14 +966,14 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				<div class="col-lg-12">
 					<div class="testimonial-full owl-carousel">
 						<!-- Single -->
-						<div class="testimonial-item">
+						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
-									<img src="assets/img/team/3.jpg" alt="testimonial">
+									<img src="assets/img/team/2.png" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
-									<h4>Rachel Adams</h4>
-									<p>Regular Clients</p>
+									<h4>Sushil joshi</h4>
+									<!-- <p>Regular Clients</p> -->
 									<div class="ratting-tes">
 										<span><i class="fas fa-star"></i></span>
 										<span><i class="fas fa-star"></i></span>
@@ -961,54 +984,67 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								</div>
 							</div>
 							<div class="testimonial-single-footer">
-								<p>We are a team of professional and enthusiastic people, who like what they do and are
-									always in the process of growing and improving their skills.</p>
+								<p>Working with the team of Tectignis IT Solutions (Especially Govind Sir head of the
+									company) has been a most pleasant experience right from the start!
+									Every person I worked with at Tectignis IT Solutions was knowledgeable, creative,
+									prompt, and personable. Their dedication and passion for what they do is exemplified
+									by their unrivaled customer support and attentiveness to the specific needs of our
+									website. We look forward to a long lasting and prosperous relationship with the team
+									of Tectignis IT Solutions. Keep up the fantastic work! We at Imperia Legal would
+									highly recommend Tectignis IT Solutions to anyone looking to build a new website..
+								</p>
 							</div>
 						</div>
 						<!-- Single -->
-						<div class="testimonial-item">
+						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
 									<img src="assets/img/team/2.jpg" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
-									<h4>Rachel Adams</h4>
-									<p>Regular Clients</p>
+									<h4>Amit Jain </h4>
+									<p></p>
 									<div class="ratting-tes">
 										<span><i class="fas fa-star"></i></span>
 										<span><i class="fas fa-star"></i></span>
 										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
 									</div>
 								</div>
 							</div>
 							<div class="testimonial-single-footer">
-								<p>We are a team of professional and enthusiastic people, who like what they do and are
-									always in the process of growing and improving their skills.</p>
+								<p>I really needed a Ecommerce website, they build for me. This is the best IT solution
+									company in Navi Mumbai. I am also happy that I got my Ecommerce website build with
+									the marketing package with best discount. Their marketing is so amazing that I am
+									now getting clients from India as well as from foreign. Thanks Tectignis Team for my
+									business growth has increased to a very good extend.</p>
 							</div>
 						</div>
 						<!-- Single -->
-						<div class="testimonial-item">
+						<div class="testimonial-item h-100">
 							<div class="testimonial-single-header">
 								<div class="thumbnail">
 									<img src="assets/img/team/1.jpg" alt="testimonial">
 								</div>
 								<div class="testimonial-title">
-									<h4>Rachel Adams</h4>
-									<p>Regular Clients</p>
+									<h4>Bhavesh Gaikar</h4>
+									<!-- <p>Regular Clients</p> -->
 									<div class="ratting-tes">
 										<span><i class="fas fa-star"></i></span>
 										<span><i class="fas fa-star"></i></span>
 										<span><i class="fas fa-star"></i></span>
 										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
+										<span><i class="far fa-star"></i></span>
 									</div>
 								</div>
 							</div>
 							<div class="testimonial-single-footer">
-								<p>We are a team of professional and enthusiastic people, who like what they do and are
-									always in the process of growing and improving their skills.</p>
+								<p>I have tried many digital marketing company in navi mumbai but never got the result
+									oriented service for digital marketing. But from past 1 years I have seen a more
+									changes in my SEO results almost all of my keyword are ranking on google and I am
+									also happy with their creative work on my social media pages. Thank you tectignis
+									team..</p>
 							</div>
 						</div>
 					</div>
@@ -1043,16 +1079,22 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 								<img src="assets/img/blog/1.jpg" alt="img">
 							</a>
 							<div class="date">
-								<span><?php $dnk=$fetch['created_at'];
+								<span>
+									<?php $dnk=$fetch['created_at'];
 								$date=strtotime($dnk);
 								echo date("d  M, Y",$date);
-								?></span>
+								?>
+								</span>
 							</div>
 						</div>
 						<!-- Content -->
 						<div class="content">
-							<h3><a href="single.php"><?php echo $fetch['meta_title']; ?> </a></h3>
-							<p><?php echo $fetch['meta_description']; ?></p>
+							<h3><a href="single.php">
+									<?php echo $fetch['meta_title']; ?>
+								</a></h3>
+							<p>
+								<?php echo $fetch['meta_description']; ?>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -1106,7 +1148,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 				}
 			});
 		});
-	
+
 	</script>
 </body>
 
