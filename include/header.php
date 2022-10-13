@@ -178,7 +178,7 @@
 				</div>
 				<div class="modal-body">
 					<div class="contact-form">
-						<form id="contact-form" action="mail.php" method="POST">
+						<form id="contact-form" action="index.php" method="POST">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="single-input">
@@ -212,7 +212,7 @@
 									</div>
 								</div>
 								<div class="col-12">
-									<button type="submit">Send Message</button>
+									<button type="submit" name="submit">Send Message</button>
 								</div>
 							</div>
 						</form>

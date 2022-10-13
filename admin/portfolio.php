@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 $file_tmp=$_FILES['image1']['tmp_name'];
   
   
-if(move_uploaded_file($file_tmp,"images/portfolio/".$file)){
+if(move_uploaded_file($file_tmp,"../assets/img/portfolio/".$file)){
 
   $sql=mysqli_query($conn,"INSERT INTO `portfolio`(`name`,`image`,`url`) 
   VALUES ('$name','$file','$url')");
@@ -139,7 +139,7 @@ if(isset($_GET['delid'])){
                                         <tr>
                                         <td><?php echo $count;?> </td>
                                         <td><?php echo $arr['name'];?> </td>
-                                        <td><img src="images/portfolio/<?php echo $arr['image'];?>" style="height:150px; width:150px;"></td>
+                                        <td><img src="../assets/img/portfolio/<?php echo $arr['image'];?>" style="height:150px; width:150px;"></td>
                                         <td><?php echo $arr['url'];?> </td>
                                         
                                          <td>

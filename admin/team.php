@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
   $file=$_FILES['image1']['name'];  
   $file_tmp=$_FILES['image1']['tmp_name'];
   
-  if(move_uploaded_file($file_tmp,"images/team/".$file)){
+  if(move_uploaded_file($file_tmp,"../assets/img/team/".$file)){
     $sql=mysqli_query($conn,"INSERT INTO `team`(`name`,`designation`,`image`) 
     VALUES ('$name','$designation','$file')");
   
@@ -138,7 +138,7 @@ if(isset($_GET['delid'])){
                                         <tr>
                                         <td><?php echo $count;?> </td>
                                         <td><?php echo $arr['name'];?> </td>
-                                        <td><img src="images/team/<?php echo $arr['image'];?>" style="height:150px; width:150px;"></td>
+                                        <td><img src="../assets/img/team/<?php echo $arr['image'];?>" style="height:150px; width:150px;"></td>
                                         <td><?php echo $arr['designation'];?> </td>
                                         
                                          <td>

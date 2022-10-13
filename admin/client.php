@@ -4,17 +4,16 @@ include("include/config.php");
 if(isset($_POST['submit'])){
 
  
-  $name=$_POST['name'];
-  $designation=$_POST['designation'];
+
   $file=$_FILES['image1']['name'];  
   $file_tmp=$_FILES['image1']['tmp_name'];
   
-  if(move_uploaded_file($file_tmp,"images/team/".$file)){
-    $sql=mysqli_query($conn,"INSERT INTO `team`(`name`,`designation`,`image`) 
-    VALUES ('$name','$designation','$file')");
+  if(move_uploaded_file($file_tmp,"../assets/img/client/".$file)){
+    $sql=mysqli_query($conn,"INSERT INTO `client`(`image`) 
+    VALUES ('$file')");
   
   if($sql==1){
-      header("location:team.php");
+      header("location:client.php");
   }
   else{
       echo 'failed'; 
@@ -33,7 +32,7 @@ if(isset($_GET['delid'])){
     $id=mysqli_real_escape_string($conn,$_GET['delid']);
     $sql=mysqli_query($conn,"delete from team where id='$id'");
     if($sql=1){
-        header("location:team.php");
+        header("location:client.php");
     }
     }
 
@@ -122,24 +121,20 @@ if(isset($_GET['delid'])){
             <thead>
                 <tr>
                     <th>Sr no.</th>
-                    <th>Name</th>
-                    <th>Photo</th>
-                    <th>Designation</th>
+                    <th>Logo</th>
                     <th>Status</th>
                 </tr>
             </thead>
             <tbody>
                                     <?php 
                         
-                        $sql=mysqli_query($conn,"select * from team");
+                        $sql=mysqli_query($conn,"select * from client");
                         $count=1;
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
                                         <tr>
                                         <td><?php echo $count;?> </td>
-                                        <td><?php echo $arr['name'];?> </td>
-                                        <td><img src="images/team/<?php echo $arr['image'];?>" style="height:150px; width:150px;"></td>
-                                        <td><?php echo $arr['designation'];?> </td>
+                                        <td><img src="../assets/img/client/<?php echo $arr['image'];?>" style="height:150px; width:150px;"></td>
                                         
                                          <td>
                       
@@ -181,19 +176,11 @@ if(isset($_GET['delid'])){
                                     
                                 </div>
                                 <form id="editUserForm" class="row gy-1 pt-75" method="post" enctype="multipart/form-data">
-                                    <div class="col-12 col-md-6">
-                                        <label class="form-label" for="modalEditUserFirstName"> Name</label>
-                                        <input type="text" id="name" name="name" class="form-control" placeholder="Name" data-msg="Please enter your  name" />
-                                    </div>
+                                   
                                     <div class="col-12 col-md-6">
                                         <label class="form-label" for="modalEditUserLastName">Upload Photo</label>
                                         <input type="file" class="form-control" name="image1">
                                     </div>
-                                    <div class="col-12">
-                                        <label class="form-label" for="modalEditUserName">Designation</label>
-                                        <input type="text" id="designation" name="designation" class="form-control"  placeholder="designation" />
-                                    </div>
-                                    
                                   
                                     <div class="col-12 text-center mt-2 pt-50">
                                         <button type="submit" name="submit" class="btn btn-primary me-1">Submit</button>
@@ -217,7 +204,7 @@ if(isset($_GET['delid'])){
 
 
                     <!-- edit customer -->
-                    <div class="modal fade" id="addNewCard" tabindex="-1" aria-labelledby="addNewCardTitle" aria-hidden="true">
+                    <!-- <div class="modal fade" id="addNewCard" tabindex="-1" aria-labelledby="addNewCardTitle" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header bg-transparent">
@@ -233,7 +220,7 @@ if(isset($_GET['delid'])){
                         
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!--/ edit customer -->
 
 

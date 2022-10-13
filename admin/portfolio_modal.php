@@ -35,8 +35,8 @@ if(isset($_POST['dnkk'])){
         <b> Photo </b> <span class="text-danger">*</span>
         </label>
         <div class="input-group">
-        <input type="file" name="image" value=="images/portfolio/'.$row['image'].'">
-        <img src="images/portfolio/'.$row['image'].'" style="height:150px; width:150px;">
+        <input type="file" name="image" value=="../assets/img/portfolio/'.$row['image'].'">
+        <img src="../assets/img/portfolio/'.$row['image'].'" style="height:150px; width:150px;">
       
 
        

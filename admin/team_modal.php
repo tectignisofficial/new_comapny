@@ -35,8 +35,8 @@ if(isset($_POST['dnkk'])){
         <b> Photo </b> <span class="text-danger">*</span>
         </label>
         <div class="input-group">
-        <input type="file" name="image1" value=="images/team/'.$row['image'].'">
-        <img src="images/team/'.$row['image'].'" style="height:150px; width:150px;">
+        <input type="file" name="image1" value=="../assets/img/team/'.$row['image'].'">
+        <img src="../assets/img/team/'.$row['image'].'" style="height:150px; width:150px;">
       
 
        
@@ -74,22 +74,20 @@ if(isset($_POST['dnkk'])){
   ';
   }
   
-  if(isset($_POST['submit1'])){
-    $id=$_POST['id'];
-    $name=$_POST['name'];
-    $designation=$_POST['designation'];
+   if(isset($_POST['submit1'])){
+     $id=$_POST['id'];
+     $name=$_POST['name'];
+     $designation=$_POST['designation'];
    
-    $file=$_FILES['image1']['name'];  
-    $file_tmp=$_FILES['image1']['tmp_name'];
+     $file=$_FILES['image1']['name'];  
+     $file_tmp=$_FILES['image1']['tmp_name'];
    
-   
-    $sql="UPDATE `team` SET `name`='$name',`designation`='$designation',`image`='$file' WHERE id='$id'";
+     $sql="UPDATE `team` SET `name`='$name',`designation`='$designation',`image`='$file' WHERE id='$id'";
 
-    if (mysqli_query($conn, $sql)){
-      header("location:team.php");
-   } else {
-      echo "connection failed !";
+     if (mysqli_query($conn, $sql)){
+       header("location:team.php");
+    } else {
+       echo "connection failed !";
+    }
    }
-  }
-
   ?>

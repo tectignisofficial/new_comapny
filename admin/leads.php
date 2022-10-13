@@ -24,13 +24,16 @@ if(isset($_POST['submit'])){
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
-    <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
     <title>Google Analysis</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
@@ -53,52 +56,78 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- END: Custom CSS-->
 
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <!-- END: Page CSS-->
 </head>
 <!-- END: Head-->
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="">
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
 
     <!-- BEGIN: Header-->
     <?php include"include/header.php";?>
-   <!-- END: Header-->
-   <?php include"include/sidebar.php";?>
+    <!-- END: Header-->
+    <?php include"include/sidebar.php";?>
     <!-- BEGIN: Content-->
     <div class="app-content content ">
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper container-xxl p-0">
-            
+
             <div class="content-body">
                 <!-- Basic Inputs start -->
-                 <!-- Tooltip validations start -->
-                 <section class="tooltip-validations" id="tooltip-validation">
+                <!-- Tooltip validations start -->
+                <section class="tooltip-validations" id="tooltip-validation">
                     <div class="row">
+                        
                         <div class="col-12">
                             <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title">Google Analysis</h4>
+                                <div class="card-header border-bottom p-1">
+                                    <div class="head-label">
+                                        <h3>Contact</h3>
+                                    </div>
                                 </div>
+
                                 <div class="card-body">
-                                   
-                                    <form class="needs-validation" method="POST" novalidate>
-                                        <div class="row g-1">
-                                        <?php 
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Sr no.</th>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>Mobile Number</th>
+                                                <th>Subject</th>
+                                                <th>Message</th>
+                                                <th>Submited On</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php 
                         
-                        $sql=mysqli_query($conn,"select * from google_analysis");
-                       
+                        $sql=mysqli_query($conn,"select * from contact order by `created_on` DESC");
+                        $count=1;
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
-                                            <div class="col-md-4 col-12 mb-3 position-relative">
-                                                <label class="form-label" for="validationTooltip01">Google Analysis Code</label>
-                                                <input type="text" class="form-control" name="code" id="code" placeholder="enter code"  value="<?php echo $arr['code'];?> " required />
-                                                
-                                            </div>
-                                            <?php   } ?>
-                                        </div>
-                                        <button class="btn btn-primary" name="submit" type="submit">Submit</button>
-                                    </form>
+                                            <tr>
+                                                <td><?php echo $count;?> </td>
+                                                <td><?php echo $arr['name'];?> </td>
+                                                <td><?php echo $arr['email'];?> </td>
+                                                <td><?php echo $arr['phone'];?></td>
+                                                <td><?php echo $arr['subject'];?></td>
+                                                <td><?php echo $arr['message'];?></td>
+                                                <td><?php echo $arr['created_on'];?></td>
+
+                                                </td>
+                                            </tr>
+                                            <?php $count++;  } ?>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -108,9 +137,18 @@ if(isset($_POST['submit'])){
 
 
             </div>
+
         </div>
+
     </div>
+
     <!-- END: Content-->
+
+
+
+
+
+
 
     <div class="sidenav-overlay"></div>
     <div class="drag-target"></div>
@@ -135,9 +173,31 @@ if(isset($_POST['submit'])){
     <!-- BEGIN: Page JS-->
     <script src="app-assets/js/scripts/forms/form-tooltip-valid.js"></script>
     <!-- END: Page JS-->
+    <!-- DATA TABLE  -->
+    <script src="plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+
 
     <script>
-        $(window).on('load', function() {
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true,
+                "lengthChange": true,
+                "autoWidth": false,
+                // "buttons": ["copy", "csv", "excel", "pdf", "print"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+
+        });
+    </script>
+    <script>
+        $(window).on('load', function () {
             if (feather) {
                 feather.replace({
                     width: 14,

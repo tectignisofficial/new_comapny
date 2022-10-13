@@ -3,7 +3,7 @@ include("include/config.php");
 
 if(isset($_POST['submit'])){
 
- 
+  
   $title=$_POST['title'];
   $blog_content	=$_POST['blog_content'];
   $category=$_POST['category'];
@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 $file_tmp=$_FILES['image']['tmp_name'];
   
   
-if(move_uploaded_file($file_tmp,"images/blog/".$file)){
+if(move_uploaded_file($file_tmp,"../assets/img/blog/".$file)){
 
   $sql=mysqli_query($conn,"INSERT INTO `blog`(`title`,`blog_content`,`image`,`meta_title`,`meta_description`,`status`) 
   VALUES ('$title','$blog_content','$file','$meta_title','$meta_description','$status')");
