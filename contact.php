@@ -36,57 +36,7 @@
 	?>
 	<!-- End Header Area -->
 	<!-- Start Mobile Menu Area -->
-    <div class="mobile-menu-area">
-        <!--offcanvas menu area start-->
-        <div class="off_canvars_overlay"></div>
-        <div class="offcanvas_menu">
-            <div class="offcanvas_menu_wrapper">
-                <div class="canvas_close">
-                    <a href="javascript:void(0)"><i class="fas fa-times"></i></a>
-                </div>
-                <div class="mobile-logo">
-                    <a href="index.php">
-                        <img src="assets/img/logo2.png" alt="logo" />
-                    </a>
-                </div>
-                <div id="menu" class="text-left">
-                    <ul class="offcanvas_main_menu">
-								<li>
-									<a href="index.php">Home</a>
-								</li>
-                        <li class="menu-item-has-children">
-                            <a href="about.php">About Us</a>
-                            <ul class="sub-menu">
-                                <li><a href="ceo-govind-bavkar.php">CEO</a></li>
-								<li><a href="team.php">Teams</a></li>
-                            </ul>
-                        </li>
-								<li class="menu-item-has-children">
-									<a href="services.php">Services</a>
-									<ul class="sub-menu">
-										<li><a href="website-designing.php">Website Designing</a></li>
-										<li><a href="ecommerce-website-design-development.php">Ecommerce Website</a></li>
-										<li><a href="software-development.php">Software Development</a></li>
-										<li><a href="mobile-app-development.php">Mobile App Development</a></li>
-										<li><a href="digital-marketing.php">Digital Marketing</a></li>
-										<li><a href="graphics-designing.php">Graphics Designing</a></li>
-										<li><a href="hardware-networking.php">Hardware Networking</a></li>
-										<li><a href="cctv-camera.php">CCTV Camera</a></li>
-										<li><a href="it-consulting.php">IT Consulting</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="portfolio.php">Portfolio</a>
-								</li>								
-								<li>	
-									<a href="blog.php">Blog</a>
-								</li>
-								<li><a href="contact.php">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->
@@ -220,91 +170,9 @@
 	</section>
 	<!-- End Subscribe Area -->
 	<!-- Start Footer Area -->
-	<footer class="footer">
-		<!-- Footer Top -->
-		<div class="footer-top pt-70 pb-20">
-			<div class="container">
-				<div class="row">
-					<!-- Single -->
-					<div class="col-lg-3 col-sm-6 mb-30">
-						<div class="f-widgets-item">
-							<div class="f-logo">
-								<a href="#">
-									<img src="assets/img/logo.png" alt="logo">
-								</a>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis..</p>
-							<ul>
-								<li><a href="#"><i class="bi bi-geo-alt-fill"></i>  153 Williamson Plaza, Maggieberg</a></li>
-								<li><a href="#"><i class="bi bi-telephone-inbound"></i> +1 (123) 456-7891</a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- Single -->
-					<div class="col-lg-3 col-sm-6 mb-30">
-						<div class="f-widgets-item">
-							<h3>Product</h3>
-							<ul>
-								<li><a href="#">Product Tour</a></li>
-								<li><a href="#">Analytics</a></li>
-								<li><a href="#">Product Overview</a></li>
-								<li><a href="#">What’s New</a></li>
-								<li><a href="#">Templates</a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- Single -->
-					<div class="col-lg-3 col-sm-6 mb-30">
-						<div class="f-widgets-item">
-							<h3>Company</h3>
-							<ul>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Careers <span>We're hiring</span></a></li>
-								<li><a href="#">PCustomers </a></li>
-								<li><a href="#">What’s New</a></li>
-								<li><a href="#">Blog & News</a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- Single -->
-					<div class="col-lg-3 col-sm-6 mb-30">
-						<div class="f-widgets-item">
-							<h3>Documentation</h3>
-							<ul>
-								<li><a href="#">Tech Requirements</a></li>
-								<li><a href="#">API Reference</a></li>
-								<li><a href="#">Solutions </a></li>
-								<li><a href="#">Brand Assets</a></li>
-								<li><a href="#">Blog & News</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer Bottom -->
-		<div class="footer-bottom pt-30 pb-30">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 align-self-center">
-						<div class="copy-f-text">
-							<p>Copyright ©2021 <a href="#">CodexUnicTheme</a>. All Rights Reserved</p>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="footer_social">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	
+	<?php include "include/footer.php";
+	 ?>
 	<!-- End Footer Area -->
 	<div class="scroll-area">
        <i class="bi bi-arrow-up"></i>
