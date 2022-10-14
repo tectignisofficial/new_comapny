@@ -3210,8 +3210,8 @@ h2.accordion-header {
     animation: preloader 1.3s linear infinite;
 }
 #preloader .preloader span:last-child {
-	animation-delay: -0.8s;
-	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.5s;
+	-webkit-animation-delay: -0.2s;
 	background-color: green;
 }
 
