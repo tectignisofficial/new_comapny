@@ -47,15 +47,15 @@
 					<div class="f-widgets-item">
 						<h3>Services</h3>
 						<ul>
-							<li><a href="#">Website Designing</a></li>
-							<li><a href="#">Ecommerce Website</a></li>
-							<li><a href="#">Software Development</a></li>
-							<li><a href="#">Mobile App Development</a></li>
-							<li><a href="#">Graphic Designing</a></li>
-							<li><a href="#">Digital Marketing</a></li>
-							<li><a href="#">Hardware Networking</a></li>
-							<li><a href="#">CCTV camera</a></li>
-							<li><a href="#">IT Consulting</a></li>
+							<li><a href="website-designing.php">Website Designing</a></li>
+							<li><a href="ecommerce-website-design-development.php">Ecommerce Website</a></li>
+							<li><a href="software-development.php">Software Development</a></li>
+							<li><a href="mobile-app-development.php">Mobile App Development</a></li>
+							<li><a href="graphics-designing.php">Graphic Designing</a></li>
+							<li><a href="digital-marketing.php">Digital Marketing</a></li>
+							<li><a href="hardware-networking.php">Hardware Networking</a></li>
+							<li><a href="cctv-camera.php">CCTV camera</a></li>
+							<li><a href="it-consulting.php">IT Consulting</a></li>
 						</ul>
 					</div>
 				</div>
