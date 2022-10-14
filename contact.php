@@ -91,12 +91,15 @@ input[type=number] {
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> 
 	</section>
 	<!-- End Breadcrumb Area -->
 	<section class="section-padding">
 		<div class="container">
 			<div class="row mb-20">
+			<?php $sql=mysqli_query($conn,"select * from company");
+				while($arr=mysqli_fetch_array($sql)){
+				?>
 				<!-- Single -->
 				<div class="col-lg-4 col-sm-6 mb-30">
 					<div class="about_item_box text-center">
@@ -104,8 +107,8 @@ input[type=number] {
 							<i class="bi bi-envelope-open-fill"></i>
 						</div>
 						<h4>Email</h4>
-						<a href="#">example123@gmail.com</a>
-						<a href="#">example123@gmail.com</a>
+						<a href="mailto:<?php echo $arr['email'] ?>"><?php echo $arr['email'] ?></a>
+					
 					</div>
 				</div>
 				<!-- Single -->
@@ -115,8 +118,8 @@ input[type=number] {
 							<i class="bi bi-telephone-inbound-fill"></i>
 						</div>
 						<h4>Phone</h4>
-						<a href="#">+1(424) 535 3523</a>
-						<a href="#">+1(789) 675 4321</a>
+						<a href="tel:<?php echo $arr['mob_no1'] ?>">+91 <?php echo $arr['mob_no1'] ?></a>
+						<a href="tel:<?php echo $arr['mob_no2'] ?>">+91 <?php echo $arr['mob_no2'] ?></a>
 					</div>
 				</div>
 				<!-- Single -->
@@ -126,10 +129,10 @@ input[type=number] {
 							<i class="bi bi-geo-alt-fill"></i>
 						</div>
 						<h4>Location</h4>
-						<a href="#">24 Tech Roqad st Ny 10023</a>
-						<a href="#">24 Tech Roqad st Ny 10023</a>
+						<a href="http://maps.google.com/?q=<?php echo $arr['address'] ?>" target="_blank"><?php echo $arr['address'] ?></a>
 					</div>
 				</div>
+				<?php } ?>
 			</div>
 			<div class="row mb-40">
 				<div class="col-lg-8 offset-lg-2 text-center">
@@ -158,7 +161,7 @@ input[type=number] {
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-input">
-                                        <input type="number" name="phone" placeholder="Your Phone" maxlength="10" minlength="10" required>
+                                        <input type="number" name="phone" minlength="10" maxlength="10" placeholder="Your Phone"  required>
                                         <i class="fas fa-mobile-alt"></i>
                                     </div>
                                 </div>
@@ -175,7 +178,7 @@ input[type=number] {
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" name="submit">Send Message</button>
+                                    <button type="submit" name="submit" >Send Message</button>
                                 </div>
                             </div>
                         </form>
@@ -211,5 +214,6 @@ input[type=number] {
     <script src="assets/js/script.js"></script>
     <script src="assets/js/mobile-menu.js"></script>
     <script src="assets/js/ajax-form.js"></script>
+
 </body>
 </html>

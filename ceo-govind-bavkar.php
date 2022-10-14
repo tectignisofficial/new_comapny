@@ -31,7 +31,9 @@ if(isset($_POST['submit']))
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Tectignis - Ceo</title>
+	<meta name="description" content="CEO & Founder of Tectignis IT Solutions Private Limited Achiever’s Success Story “I knew that if I failed I wouldn’t regret that, but I knew the one thing I might regret is not trying.” Founder of Tectignis IT Solutions Private Limited establishment in October 2020.In 2021 Mr. Govind completed his graduation in B.Sc in Information Technology.">
+
+	<title>CEO Mr. Govind Laxman Bavkar</title>
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">

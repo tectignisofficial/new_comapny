@@ -3593,7 +3593,7 @@ h2.accordion-header {
 	/* Height of the footer*/
 	height: max-content;
 	border-radius: 8px 8px 0 0;
-	display: none;
+
 }
 
 .footer-button {
@@ -3611,6 +3611,7 @@ h2.accordion-header {
 	border-top-left-radius: 8px;
 	float: left;
 	cursor: pointer;
+
 }
 
 .hide {

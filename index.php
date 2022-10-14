@@ -49,7 +49,8 @@ if(isset($_POST['save']))
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Tectignis - Index </title>
+	<meta name="description" content="Tectignis is the Website Design Company in Navi Mumbai. We are Offering website design services for Ecommerce, Digital Marketing, Web Application & Development.">
+	<title>Website Design Company in Navi Mumbai | Web Development & Application </title>
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
@@ -808,20 +809,6 @@ if(isset($_POST['save']))
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="pricing-table-tab  text-center">
-						<p>Save up to 10%</p>
-						<ul class="nav nav-tabs" id="myTabPricing" role="tablist">
-							<li class="nav-item" role="presentation">
-								<button class="nav-link active" id="monthly-tab" data-bs-toggle="tab"
-									data-bs-target="#monthly" role="tab" aria-controls="monthly"
-									aria-selected="true">Monthly</button>
-							</li>
-							<li class="nav-item" role="presentation">
-								<button class="nav-link" id="yearly-tab" data-bs-toggle="tab" data-bs-target="#yearly"
-									role="tab" aria-controls="yearly" aria-selected="false">Yearly</button>
-							</li>
-						</ul>
-					</div>
 					<div class="tab-content mt-40" id="myTabPricingContent">
 						<div class="tab-pane fade show active" id="monthly" role="tabpanel"
 							aria-labelledby="monthly-tab">
@@ -1007,14 +994,11 @@ if(isset($_POST['save']))
 								</div>
 							</div>
 							<div class="testimonial-single-footer">
-								<p>Working with the team of Tectignis IT Solutions (Especially Govind Sir head of the
-									company) has been a most pleasant experience right from the start!
+								<p>Working with the team of Tectignis IT Solutions has been a most pleasant experience right from the start!
 									Every person I worked with at Tectignis IT Solutions was knowledgeable, creative,
 									prompt, and personable. Their dedication and passion for what they do is exemplified
 									by their unrivaled customer support and attentiveness to the specific needs of our
-									website. We look forward to a long lasting and prosperous relationship with the team
-									of Tectignis IT Solutions. Keep up the fantastic work! We at Imperia Legal would
-									highly recommend Tectignis IT Solutions to anyone looking to build a new website..
+									website. 
 								</p>
 							</div>
 						</div>
@@ -1066,8 +1050,7 @@ if(isset($_POST['save']))
 								<p>I have tried many digital marketing company in navi mumbai but never got the result
 									oriented service for digital marketing. But from past 1 years I have seen a more
 									changes in my SEO results almost all of my keyword are ranking on google and I am
-									also happy with their creative work on my social media pages. Thank you tectignis
-									team..</p>
+									also happy with their creative work on my social media pages.</p>
 							</div>
 						</div>
 						<!-- Single -->
@@ -1135,9 +1118,7 @@ if(isset($_POST['save']))
 							<div class="testimonial-single-footer h-100">
 								<p>I have tried many digital marketing company in navi mumbai but never got the result
 									oriented service for digital marketing. But from past 1 years I have seen a more
-									changes in my SEO results almost all of my keyword are ranking on google and I am
-									also happy with their creative work on my social media pages. Thank you tectignis
-									team..</p>
+									changes in my SEO results almost all of my keyword are ranking on google. </p>
 							</div>
 						</div>
 						<!-- Single -->
@@ -1164,6 +1145,31 @@ if(isset($_POST['save']))
 									changes in my SEO results almost all of my keyword are ranking on google and I am
 									also happy with their creative work on my social media pages. Thank you tectignis
 									team..</p>
+							</div>
+						</div>
+						<div class="testimonial-item h-100">
+							<div class="testimonial-single-header">
+								<div class="thumbnail">
+									<img src="assets/img/team/2.webp" alt="testimonial">
+								</div>
+								<div class="testimonial-title">
+									<h4>Sushil joshi</h4>
+									<!-- <p>Regular Clients</p> -->
+									<div class="ratting-tes">
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+										<span><i class="fas fa-star"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial-single-footer">
+								<p>Working with the team of Tectignis IT Solutions has been a most pleasant experience right from the start!
+									Every person I worked with at Tectignis IT Solutions was knowledgeable, creative,
+									prompt, and personable. Their dedication and passion for what they do is exemplified
+									by their unrivaled customer support and 
+								</p>
 							</div>
 						</div>
 					</div>
@@ -1224,12 +1230,9 @@ if(isset($_POST['save']))
 	</section>
 	<!-- End Latest blog Area -->
 
-	<?php include "include/footer.php";
-	 ?>
+	<?php include("include/footer.php");?>
 
-	<div class="scroll-area">
-		<i class="bi bi-arrow-up"></i>
-	</div>
+
 
 
 	<!-- Js File -->

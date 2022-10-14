@@ -28,7 +28,8 @@ if(isset($_POST['submit']))
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Tectignis - About</title>
+	<meta name="description" content="We are a top ISO 9001:2015 & ISO 27001:2013 certified digital agency offering comprehensive digital solutions to a global clientele at affordable costs.">
+	<title>Our Journey, Expertise, and Solutions - Tectignis IT Solutions </title>
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
@@ -420,8 +421,8 @@ if(isset($_POST['submit']))
 	<!-- End Testimonial Area -->
 	
 	<!-- Start Footer Area -->
-	<?php include "include/footer.php";
-	 ?>
+	<?php include("include/footer.php");?>
+
 	<!-- End Footer Area -->
 	
 
