@@ -8,10 +8,9 @@ if(isset($_POST['submit']))
     $email=$_POST['email'];
     $phone=$_POST['phone'];
     $subject=$_POST['subject'];
-    $services=$_POST['services'];
     $message=$_POST['message'];
 
-    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`services`,`message`) VALUES('$name','$email','$phone','$subject','$services','$message')");
+    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`message`) VALUES('$name','$email','$phone','$subject','$message')");
 
     if( $sql==1){
         echo "<script>window.location='contact.php';</script>";
@@ -49,6 +48,19 @@ if(isset($_POST['submit']))
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
+<style>
+		/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
 <body>
 	<!-- Preloader -->
     <div id="preloader">
@@ -134,31 +146,31 @@ if(isset($_POST['submit']))
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single-input">
-                                        <input type="text" name="name" placeholder="Your Name">
+                                        <input type="text" name="name" placeholder="Your Name" required>
                                         <i class="fas fa-user"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-input">
-                                        <input type="email" name="email" placeholder="Your Email">
+                                        <input type="email" name="email" placeholder="Your Email" required>
                                         <i class="far fa-envelope"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-input">
-                                        <input type="text" name="phone" placeholder="Your Phone">
+                                        <input type="number" name="phone" placeholder="Your Phone" maxlength="10" minlength="10" required>
                                         <i class="fas fa-mobile-alt"></i>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-input">
-                                        <input type="text" name="subject" placeholder="Your Subjects">
+                                        <input type="text" name="subject" placeholder="Your Subjects" required>
                                         <i class="fas fa-file-alt"></i>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="single-input">
-                                        <textarea name="message" placeholder="Write Message" spellcheck="false"></textarea>
+                                        <textarea name="message" placeholder="Write Message" spellcheck="false" required></textarea>
                                         <i class="fas fa-pen"></i>
                                     </div>
                                 </div>

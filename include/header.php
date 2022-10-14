@@ -1,3 +1,17 @@
+<style>
+	/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>	
+	
 	<!-- Start Header Area -->
 	<header class="header">
 		<div class="container">
@@ -21,7 +35,7 @@
 				<div class="col-lg-9">
 					<!-- Header Right Button -->
 					<div class="hr_btn">
-						<a class="button-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="request_quote_action.php">Get Quote</a>
+						<a class="button-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Quote</a>
 					</div>
 					<!-- Menu -->
 					<div class="menu">
@@ -183,45 +197,33 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="text" name="name" placeholder="Your Name">
+										<input type="text" name="name" placeholder="Your Name" required>
 										<i class="fas fa-user"></i>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="email" name="email" placeholder="Your Email">
+										<input type="email" name="email" placeholder="Your Email" required>
 										<i class="far fa-envelope"></i>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="tel" name="phone" placeholder="Your Phone">
+										<input type="number" name="phone" placeholder="Your Phone" maxlength="10" minlength="10" required>
 										<i class="fas fa-mobile-alt"></i>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="single-input">
-										<input type="text" name="subject" placeholder="Your Subjects">
+										<input type="text" name="subject" placeholder="Your Subjects" required>
 										<i class="fas fa-file-alt"></i>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<div class="single-input">
-										<select class="form-select" id="sel" name="services" aria-label="Default select example">
-											<option selected>Services</option>
-											<option>Website Designing</option>
-											<option>App Development</option>
-											<option>Customized Software</option>
-											<option>Digital Marketing</option>
-											<option>Graphics Designing</option>
-
-											</select>
-									</div>
-								</div>
+								
 								<div class="col-12">
 									<div class="single-input">
 										<textarea name="message" placeholder="Write Message"
-											spellcheck="false"></textarea>
+											spellcheck="false" required></textarea>
 										<i class="fas fa-pen"></i>
 									</div>
 								</div>

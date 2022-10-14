@@ -7,8 +7,22 @@ if(!isset($_SESSION['id']))
 {                                                                                       
   header("location:adminlogin.php");
 }
+    
+include("include/config.php");
 
-include('include/config.php');
+if(isset($_POST['submit'])){
+
+ 
+  $code=$_POST['code'];
+  $sql="UPDATE `google_analysis` SET `code`='$code' ";
+  if (mysqli_query($conn, $sql)){
+    header("location:google_analysis.php");
+ } else {
+    echo "connection failed !";
+ }
+ 
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +38,7 @@ include('include/config.php');
     <meta name="keywords"
         content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>Request Quote</title>
+    <title>Leads</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
@@ -51,13 +65,12 @@ include('include/config.php');
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- END: Custom CSS-->
 
+
     <!-- DataTables -->
     <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
     <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
     <!-- END: Page CSS-->
-
-
 </head>
 <!-- END: Head-->
 
@@ -66,12 +79,10 @@ include('include/config.php');
 <body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
     data-menu="vertical-menu-modern" data-col="">
 
-
     <!-- BEGIN: Header-->
     <?php include"include/header.php";?>
     <!-- END: Header-->
     <?php include"include/sidebar.php";?>
-
     <!-- BEGIN: Content-->
     <div class="app-content content ">
         <div class="content-overlay"></div>
@@ -79,59 +90,70 @@ include('include/config.php');
         <div class="content-wrapper container-xxl p-0">
 
             <div class="content-body">
-                <!-- Basic Tables start -->
-                <div class="row" id="basic-table">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-header border-bottom p-1">
-                                <div class="head-label">
-                                    <h3>Request Quote</h3>
-                                </div>
-                            </div>
-
-                            <div class="card-body">
-                                <table id="example1" class="table table-bordered table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th>Sr no.</th>
-                                            <th>Name</th>
-                                            <th>Email</th>
-                                            <th>Mobile No.</th>
-                                            <th>Subject</th>
-                                            <th>Message</th>
-                                            <th>Submited On</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php 
+                <!-- Basic Inputs start -->
+                <!-- Tooltip validations start -->
+                <section class="tooltip-validations" id="tooltip-validation">
+                    <div class="row">
                         
-                        $sql=mysqli_query($conn,"select * from request_quote");
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header border-bottom p-1">
+                                    <div class="head-label">
+                                        <h3>Contact</h3>
+                                    </div>
+                                </div>
+
+                                <div class="card-body">
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Sr no.</th>
+                                                <th>Name</th>
+                                                <th>Email</th>
+                                                <th>Subject</th>
+                                                <th>Submited On</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from index_enquiry order by `created_on` DESC");
                         $count=1;
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
-                                        <tr>
-                                            <td><?php echo $count;?> </td>
-                                            <td><?php echo $arr['name'];?> </td>
-                                            <td><?php echo $arr['email'];?> </td>
-                                            <td><?php echo $arr['phone'];?> </td>
-                                            <td><?php echo $arr['subject'];?> </td>
-                                            <td><?php echo $arr['message'];?> </td>
-                                            <td><?php echo $arr['created_on'];?> </td>
-                                        </tr>
-                                        <?php $count++;  } ?>
-                                    </tbody>
-                                </table>
+                                            <tr>
+                                                <td><?php echo $count;?> </td>
+                                                <td><?php echo $arr['name'];?> </td>
+                                                <td><?php echo $arr['email'];?> </td>
+                                                <td><?php echo $arr['subject'];?></td>
+                                                <td><?php echo $arr['created_on'];?></td>
+
+                                                </td>
+                                            </tr>
+                                            <?php $count++;  } ?>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Basic Tables end -->
+                </section>
+                <!-- Tooltip validations end -->
 
-                <!-- form User Modal -->
+
             </div>
+
         </div>
-    
+
     </div>
+
+    <!-- END: Content-->
+
+
+
+
+
+
 
     <div class="sidenav-overlay"></div>
     <div class="drag-target"></div>
@@ -154,26 +176,19 @@ include('include/config.php');
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-
-    <!-- BEGIN: Page JS-->
-    <script src="app-assets/js/scripts/tables/table-datatables-basic.js"></script>
+    <script src="app-assets/js/scripts/forms/form-tooltip-valid.js"></script>
     <!-- END: Page JS-->
-    <!-- END: Page JS-->
-
-
+    <!-- DATA TABLE  -->
     <script src="plugins/datatables/jquery.dataTables.min.js"></script>
     <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
     <script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
     <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
     <script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
     <script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-    <script src="plugins/jszip/jszip.min.js"></script>
-    <script src="plugins/pdfmake/pdfmake.min.js"></script>
-    <script src="plugins/pdfmake/vfs_fonts.js"></script>
     <script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
     <script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
     <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-    <script src="app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+
 
     <script>
         $(function () {
@@ -186,9 +201,6 @@ include('include/config.php');
 
         });
     </script>
-
-
-
     <script>
         $(window).on('load', function () {
             if (feather) {

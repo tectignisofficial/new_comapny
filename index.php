@@ -8,10 +8,28 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
     $email=$_POST['email'];
     $phone=$_POST['phone'];
     $subject=$_POST['subject'];
-    $services=$_POST['services'];
     $message=$_POST['message'];
 
-    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`services`,`message`) VALUES('$name','$email','$phone','$subject','$services','$message')");
+    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`message`) VALUES('$name','$email','$phone','$subject','$message')");
+
+    if( $sql==1){
+        echo "<script>window.location='index.php';</script>";
+    }
+    else{
+        echo "<script> alert('Connection Failed !');</script>";
+
+    }
+
+	
+}
+
+if(isset($_POST['save']))
+{
+    $name=$_POST['name'];
+    $email=$_POST['email'];
+    $subject=$_POST['subject'];
+
+    $sql=mysqli_query($conn, "INSERT INTO `index_enquiry`(`name`,`email`,`subject`) VALUES('$name','$email','$subject')");
 
     if( $sql==1){
         echo "<script>window.location='index.php';</script>";
@@ -359,7 +377,7 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 						marketing campaign - we have a solution for you.</p>
 				</div>
 				<div class="col-lg-6 align-self-center">
-					<a class="button-2 text-right" href="contact.php">Contact us now for a free Quote</a>
+					<a class="button-2 text-right" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us now for a free Quote</a>
 				</div>
 			</div>
 		</div>
@@ -376,11 +394,11 @@ $conn=mysqli_connect("151.106.124.51","u188140722_company","Admin@123","u1881407
 							<img src="assets/img/custom-website-development.webp" alt="img">
 						</div>
 						<div class="use_form">
-							<form action="#">
+							<form method="post">
 								<input type="text" name="name" placeholder="Name">
 								<input type="email" name="email" placeholder="Email">
 								<input type="text" name="subject" placeholder="Subject">
-								<button class="button-1" type="submit">Submit Now</button>
+								<button class="button-1" type="submit" name="save">Submit Now</button>
 							</form>
 						</div>
 					</div>

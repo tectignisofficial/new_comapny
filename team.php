@@ -8,10 +8,9 @@ if(isset($_POST['submit']))
     $email=$_POST['email'];
     $phone=$_POST['phone'];
     $subject=$_POST['subject'];
-    $services=$_POST['services'];
     $message=$_POST['message'];
 
-    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`services`,`message`) VALUES('$name','$email','$phone','$subject','$services','$message')");
+    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`message`) VALUES('$name','$email','$phone','$subject','$message')");
 
     if( $sql==1){
         echo "<script>window.location='team.php';</script>";
@@ -231,28 +230,7 @@ if(isset($_POST['submit']))
 		</div>
 	</section>
 	<!-- End Team Member Area -->
-	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="subscribe-content">
-						<h2>Start your <br>30 day free trial.</h2>
-						<p>Naff the little rotter have gutted mate James cuppa baking legged. </p>
-						<form action="#">
-							<input type="email" name="email" placeholder="Email Address">
-							<button type="submit">Sign up free</button>
-						</form>
-						<ul>
-							<li><i class="fas fa-check"></i>  30-day free tria</li>
-							<li><i class="fas fa-check"></i> No credit card required</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Subscribe Area -->
+	
 	<!-- Start Footer Area -->
 	<?php include "include/footer.php";
 	 ?>

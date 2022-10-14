@@ -8,10 +8,9 @@ if(isset($_POST['submit']))
     $email=$_POST['email'];
     $phone=$_POST['phone'];
     $subject=$_POST['subject'];
-    $services=$_POST['services'];
     $message=$_POST['message'];
 
-    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`services`,`message`) VALUES('$name','$email','$phone','$subject','$services','$message')");
+    $sql=mysqli_query($conn, "INSERT INTO `request_quote`(`name`,`email`,`phone`,`subject`,`message`) VALUES('$name','$email','$phone','$subject','$message')");
 
     if( $sql==1){
         echo "<script>window.location='pricing.php';</script>";
