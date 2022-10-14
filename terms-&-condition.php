@@ -241,9 +241,7 @@ if(isset($_POST['submit']))
 	<?php include "include/footer.php";
 	 ?>
 	<!-- End Footer Area -->
-	<div class="scroll-area">
-		<i class="bi bi-arrow-up"></i>
-	</div>
+
 
 
 	<!-- Js File -->
@@ -263,6 +261,20 @@ if(isset($_POST['submit']))
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/mobile-menu.js"></script>
 	<script src="assets/js/ajax-form.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(window).on('scroll', function () {
+				var a = $(window).scrollTop();
+				if (a > 400) {
+					$('.request-area').slideDown(300);
+				} else {
+					$('.request-area').slideUp(200);
+				}
+			})
+		}
+        );
+
+	</script> 
 </body>
 
 </html>

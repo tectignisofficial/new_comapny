@@ -3585,7 +3585,7 @@ h2.accordion-header {
 	font-weight: 700;
   }
   #footer {
-	z-index: 3;
+	z-index: 10;
 	position: fixed;
 	color: white;
 	bottom: 0;
@@ -3593,6 +3593,7 @@ h2.accordion-header {
 	/* Height of the footer*/
 	height: max-content;
 	border-radius: 8px 8px 0 0;
+	display: none;
 
 }
 

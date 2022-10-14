@@ -139,7 +139,7 @@ if(isset($_POST['submit']))
 				<div class="col-12" style="text-align:center;">
 					<h1>REFUND POLICY</h1>
 					<ul style="list-style-type: disc">
-						<li>NO REFUND</li>
+						<h3>NO REFUND</h3>
 					</ul>
 				</div>
 			</div>
@@ -151,10 +151,7 @@ if(isset($_POST['submit']))
 	<?php include "include/footer.php";
 	 ?>
 	<!-- End Footer Area -->
-	<div class="scroll-area">
-		<i class="bi bi-arrow-up"></i>
-	</div>
-
+	
 
 	<!-- Js File -->
 	<script src="assets/js/modernizr.min.js"></script>
@@ -173,6 +170,20 @@ if(isset($_POST['submit']))
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/mobile-menu.js"></script>
 	<script src="assets/js/ajax-form.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(window).on('scroll', function () {
+				var a = $(window).scrollTop();
+				if (a > 400) {
+					$('.request-area').slideDown(300);
+				} else {
+					$('.request-area').slideUp(200);
+				}
+			})
+		}
+        );
+
+	</script> 
 </body>
 
 </html>

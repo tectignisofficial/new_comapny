@@ -13,14 +13,14 @@
 	      	},700);
 	      	return false;
 	    });
-	    $(window).on('scroll',function(){
-	      	var a = $(window).scrollTop();
-	      	if(a>400){
-	            $('.scroll-area').slideDown(300);
-	        }else{
-	            $('.scroll-area').slideUp(200);
-	        }
-	    });
+	    // $(window).on('scroll',function(){
+	    //   	var a = $(window).scrollTop();
+	    //   	if(a>400){
+	    //         $('.-area').slideDown(300);
+	    //     }else{
+	    //         $('.-area').slideUp(200);
+	    //     }
+	    // });
 	});
 	// Counter
     var $CounterUp = $('.counter');

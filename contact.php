@@ -216,6 +216,21 @@ input[type=number] {
     <script src="assets/js/mobile-menu.js"></script>
     <script src="assets/js/ajax-form.js"></script>
 	<script>
+		$(document).ready(function () {
+			$(window).on('scroll', function () {
+				var a = $(window).scrollTop();
+				if (a > 400) {
+					$('.request-area').slideDown(300);
+				} else {
+					$('.request-area').slideUp(200);
+				}
+			})
+		}
+        );
+
+	</script> 
+	<script>
+		
              $("#phone1Span").hide();
 	    $(".phone1").keyup(function(){
 	     mobile_check();
