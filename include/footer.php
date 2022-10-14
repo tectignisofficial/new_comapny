@@ -109,6 +109,9 @@
 			<i class="fab fa-whatsapp"></i>
 		</a>
 
+		<a class="scroll-area" id="scroll"><i class="bi bi-arrow-up"></i></a>
+	
+
 
 
 	</div>

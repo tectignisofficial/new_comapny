@@ -83,25 +83,26 @@ img{
 	padding: 70px 0px;
 }
 /*Scroll Area*/
-.scroll-area {
+/* .scroll-area {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1;
-    display: none;
-}
+    /* bottom: 20px;
+    right: 20px; */
+    /* z-index: 1;
+    display: none; */
+/* } */ 
 .scroll-area i {
-    width: 45px;
-    height: 45px;
-    background-color: #f73859;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    color: #fff;
-    font-size: 20px;
-    border-radius: 50%;
-	background-image: linear-gradient(310deg,#7928ca,#f9004d);
+	    	background-color: #f73859;
+			background-image: linear-gradient(310deg,#7928ca,#f9004d);
+			color: #fff;
+			height: 38px;
+			line-height: 38px;
+			padding: 0 15px;
+			display: inline-block;
+			letter-spacing: 1px;
+			font-size: 24px;
+			border-top-right-radius: 8px;
+			float: left;
+			cursor: pointer;
 }
 /*
  * #-Header
@@ -3584,7 +3585,7 @@ h2.accordion-header {
 	font-weight: 700;
   }
   #footer {
-	z-index: 9;
+	z-index: 3;
 	position: fixed;
 	color: white;
 	bottom: 0;
@@ -3592,6 +3593,7 @@ h2.accordion-header {
 	/* Height of the footer*/
 	height: max-content;
 	border-radius: 8px 8px 0 0;
+	display: none;
 }
 
 .footer-button {
@@ -3623,7 +3625,6 @@ h2.accordion-header {
 
 .whatsApp_icon {
 	background-image: linear-gradient(310deg, #128C7E, #25D366);
-
 	color: #fff;
 	height: 38px;
 	line-height: 38px;
@@ -3631,7 +3632,6 @@ h2.accordion-header {
 	display: inline-block;
 	letter-spacing: 1px;
 	font-size: 24px;
-	border-top-right-radius: 8px;
 	float: left;
 	cursor: pointer;
 }
