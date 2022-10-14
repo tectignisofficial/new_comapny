@@ -111,7 +111,7 @@
 			<div class="row">
 				<div class="col-lg-12 align-self-center">
 					<div class="copy-f-text">
-						<p>©2022 <a href="#"><?php echo $ar1['companyName'] ?></a>. All Rights Reserved | CIN -
+						<p>©2022 <a><?php echo $ar1['companyName'] ?></a>. All Rights Reserved | CIN -
 							<?php echo $ar1['CIN'] ?> | GST - <?php echo $ar1['GST'] ?></p>
 					</div>
 				</div>
