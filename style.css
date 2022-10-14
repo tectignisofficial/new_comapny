@@ -3584,7 +3584,7 @@ h2.accordion-header {
 	font-weight: 700;
   }
   #footer {
-	z-index: 3;
+	z-index: 9;
 	position: fixed;
 	color: white;
 	bottom: 0;
