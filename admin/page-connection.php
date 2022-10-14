@@ -222,7 +222,7 @@ if(isset($_POST['update1'])){
                         
                         $sql=mysqli_query($conn,"select * from connectivity");
                        
-                         while($arr=mysqli_fetch_array($sql)){
+                          $arr=mysqli_fetch_array($sql);
                         ?>
                                             <div class="d-flex mt-2">
                                                 <div class="flex-shrink-0">
@@ -244,15 +244,9 @@ if(isset($_POST['update1'])){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <?php   } ?>
                                         </form>
                                         <form method="post">
-                                            <?php 
-                        
-                        $sql=mysqli_query($conn,"select * from connectivity");
-                       
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
+                                            
                                             <div class="d-flex align-items-start mt-2">
                                                 <div class="flex-shrink-0">
                                                     <img src="app-assets/images/icons/social/twitter.png" alt="twitter"
@@ -273,15 +267,9 @@ if(isset($_POST['update1'])){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <?php   } ?>
                                         </form>
                                         <form method="post">
-                                            <?php 
-                        
-                        $sql=mysqli_query($conn,"select * from connectivity");
-                       
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
+                                           
                                             <div class="d-flex mt-2">
                                                 <div class="flex-shrink-0">
                                                     <img src="app-assets/images/icons/social/linkedin.png"
@@ -299,15 +287,9 @@ if(isset($_POST['update1'])){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <?php   } ?>
                                         </form>
                                         <form method="post">
-                                            <?php 
-                        
-                        $sql=mysqli_query($conn,"select * from connectivity");
-                       
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
+                                           
                                             <div class="d-flex mt-2">
                                                 <div class="flex-shrink-0">
                                                     <img src="app-assets/images/icons/social/instagram.png"
@@ -325,15 +307,10 @@ if(isset($_POST['update1'])){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <?php   } ?>
+                                           
                                         </form>
                                         <form method="post">
-                                            <?php 
-                        
-                        $sql=mysqli_query($conn,"select * from connectivity");
-                       
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
+                                           
                                             <div class="d-flex mt-2">
                                                 <div class="flex-shrink-0">
                                                     <img src="app-assets/images/icons/social/dribbble.png"
@@ -351,7 +328,6 @@ if(isset($_POST['update1'])){
                                                     </div>
                                                 </div>
                                             </div>
-                                            <?php   } ?>
                                         </form>
 
                                         <!-- /Social Accounts -->
