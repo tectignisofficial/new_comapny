@@ -1186,9 +1186,8 @@ if(isset($_POST['save']))
 	</section>
 	<!-- End Testimonial Area -->
 	<!-- Start Latest blog Area -->
-	<section class="section-padding-2 pt-0">
+	<!-- <section class="section-padding-2 pt-0">
 		<div class="container">
-			<!-- Section Headding -->
 			<div class="row mb-40">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-headding">
@@ -1198,14 +1197,13 @@ if(isset($_POST['save']))
 				</div>
 			</div>
 			<div class="row">
-				<!-- Single -->
 				<?php
 				$sql=mysqli_query($conn,"select * from blog limit 3");
 				while($fetch=mysqli_fetch_array($sql)){
 				?>
 				<div class="col-lg-4 col-md-6 mb-30">
 					<div class="blog-item">
-						<!-- Thumbanil -->
+					
 						<div class="thumbnail">
 							<a href="single.php">
 								<img src="assets/img/blog/1.webp" alt="img">
@@ -1219,7 +1217,6 @@ if(isset($_POST['save']))
 								</span>
 							</div>
 						</div>
-						<!-- Content -->
 						<div class="content">
 							<h3><a href="single.php">
 									<?php echo $fetch['meta_title']; ?>
@@ -1234,7 +1231,7 @@ if(isset($_POST['save']))
 
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End Latest blog Area -->
 
 	<?php include("include/footer.php");?>
