@@ -212,9 +212,7 @@ input[type=number] {
 	<?php include "include/footer.php";
 	 ?>
 	<!-- End Footer Area -->
-	<div class="scroll-area">
-       <i class="bi bi-arrow-up"></i>
-    </div>
+	
 
 
     <!-- Js File -->
