@@ -377,7 +377,7 @@ if(isset($_POST['save']))
 						marketing campaign - we have a solution for you.</p>
 				</div>
 				<div class="col-lg-6 align-self-center">
-					<a class="button-2 text-right" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us now for a free Quote</a>
+					<a class="button-2 text-right" data-bs-toggle="modal" data-bs-target="#exampleModal" href="">Contact us now for a free Quote</a>
 				</div>
 			</div>
 		</div>
