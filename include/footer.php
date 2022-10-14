@@ -15,6 +15,7 @@
 								<img src="assets/img/tlogo.png" width="70%" alt="logo">
 							</a>
 						</div>
+
 						<ul>
 							<li>
 								<a
@@ -83,11 +84,16 @@
 							<li><a href="refund-policy.php">Refund Policy</a></li>
 						</ul>
 					</div>
+					<?php $sql=mysqli_query($conn,"select * from connectivity");
+				$arr=mysqli_fetch_array($sql)
+				?>
 					<div class="footer_social mt-2" style="float:left;">
 						<ul>
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="<?php echo $arr['facebook_link'] ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="<?php echo $arr['twitter_link'] ?>" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="<?php echo $arr['instagram_link'] ?>" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="<?php echo $arr['linkedin_link'] ?>" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
 						</ul>
 					</div>
 				</div>
