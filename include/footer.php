@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="row">
 				<?php $sql=mysqli_query($conn,"select * from company");
-				while($arr=mysqli_fetch_array($sql)){
+				$arr=mysqli_fetch_array($sql)
 				?>
 				<!-- Single -->
 				<div class="col-lg-3 col-sm-6 mb-30">
@@ -85,31 +85,34 @@
 						</ul>
 					</div>
 					<?php $sql=mysqli_query($conn,"select * from connectivity");
-				$arr=mysqli_fetch_array($sql)
+				$row=mysqli_fetch_array($sql)
 				?>
 					<div class="footer_social mt-2" style="float:left;">
 						<ul>
-							<li><a href="<?php echo $arr['facebook_link'] ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="<?php echo $arr['twitter_link'] ?>" target="_blank"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="<?php echo $arr['instagram_link'] ?>" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="<?php echo $arr['linkedin_link'] ?>" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="<?php echo $row['facebook_link'] ?>" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="<?php echo $row['twitter_link'] ?>" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="<?php echo $row['instagram_link'] ?>" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="<?php echo $row['linkedin_link'] ?>" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 
 						</ul>
 					</div>
 				</div>
-				<?php } ?>
 			</div>
 
 		</div>
 	</div>
 	<!-- Footer Bottom -->
+	<?php $sql=mysqli_query($conn,"select * from account");
+				$ar1=mysqli_fetch_array($sql)
+				?>
+	
 	<div class="footer-bottom pt-30 pb-30">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 align-self-center">
 					<div class="copy-f-text">
-						<p>©2022 <a href="#">Tectignis IT Solutions pvt. Ltd</a>. All Rights Reserved | CIN -
-							U72900MH2020PTC348594 | GST - 27AAICT1840Q1ZS</p>
+						<p>©2022 <a href="#"><?php echo $ar1['companyName'] ?></a>. All Rights Reserved | CIN -
+							<?php echo $ar1['CIN'] ?> | GST - <?php echo $ar1['GST'] ?></p>
 					</div>
 				</div>
 			</div>
