@@ -143,17 +143,6 @@ if(isset($_POST['submit']))
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="pricing-table-tab  text-center">
-						<p>Save up to 10%</p>
-						<ul class="nav nav-tabs" id="myTabPricing" role="tablist">
-						  	<li class="nav-item" role="presentation">
-						    	<button class="nav-link active" id="monthly-tab" data-bs-toggle="tab" data-bs-target="#monthly" role="tab" aria-controls="monthly" aria-selected="true">Monthly</button>
-						  	</li>
-						  	<li class="nav-item" role="presentation">
-						    	<button class="nav-link" id="yearly-tab" data-bs-toggle="tab" data-bs-target="#yearly" role="tab" aria-controls="yearly" aria-selected="false">Yearly</button>
-						 	</li>
-						</ul>
-					</div>
 					<div class="tab-content mt-40" id="myTabPricingContent">
 					  	<div class="tab-pane fade show active" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
 					  		<div class="row">
@@ -304,91 +293,6 @@ if(isset($_POST['submit']))
 		</div>
 	</section>
 	<!-- End TPricing Plane Area -->
-	<!-- Start Pricing Plane Area -->
-	<section class="section-padding-2 section-bg">
-		<div class="container">
-			<!-- Section Headding -->
-			<div class="row mb-40">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-headding">
-						<h2>Our Awesome <br>Pricing Packages</h2>
-						<p>The powerful and flexible theme for all kinds of businesses</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-	  			<!-- Single -->
-	  			<div class="col-lg-4 col-md-6 mb-30">
-	  				<div class="pricing-item">
-	  					<div class="pricing-header">
-	  						<h4>BASIC</h4>
-	  						<h2>$19.89</h2>
-	  					</div>
-	  					<div class="pricing-content">
-	  						<ul>
-	  							<li>Basic Listing Submission</li>
-	  							<li>One Listing</li>
-	  							<li>30 Days Availability</li>
-	  							<li>Limited Support</li>
-	  							<li>Accept Reviews</li>
-	  							<li>Edit Your Listing</li>
-	  						</ul>
-	  					</div>
-	  					<div class="pricng-btn">
-	  						<a class="button-1" href="#">Get Started</a>
-	  					</div>
-	  				</div>
-	  			</div>
-	  			<!-- Single -->
-	  			<div class="col-lg-4 col-md-6 mb-30">
-	  				<div class="pricing-item active">
-	  					<div class="pricing-header">
-	  						<h4>STANDART</h4>
-	  						<h2>$99.89</h2>
-	  						<div class="badge">Popular</div>
-	  					</div>
-	  					<div class="pricing-content">
-	  						<ul>
-	  							<li>Basic Listing Submission</li>
-	  							<li>One Listing</li>
-	  							<li>30 Days Availability</li>
-	  							<li>Limited Support</li>
-	  							<li>Accept Reviews</li>
-	  							<li>Edit Your Listing</li>
-	  						</ul>
-	  					</div>
-	  					<div class="pricng-btn">
-	  						<a class="button-1" href="#">Get Started</a>
-	  					</div>
-	  				</div>
-	  			</div>
-	  			<!-- Single -->
-	  			<div class="col-lg-4 col-md-6 mb-30">
-	  				<div class="pricing-item">
-	  					<div class="pricing-header">
-	  						<h4>Premium</h4>
-	  						<h2>$119.89</h2>
-	  					</div>
-	  					<div class="pricing-content">
-	  						<ul>
-	  							<li>Basic Listing Submission</li>
-	  							<li>One Listing</li>
-	  							<li>30 Days Availability</li>
-	  							<li>Limited Support</li>
-	  							<li>Accept Reviews</li>
-	  							<li>Edit Your Listing</li>
-	  						</ul>
-	  					</div>
-	  					<div class="pricng-btn">
-	  						<a class="button-1" href="#">Get Started</a>
-	  					</div>
-	  				</div>
-	  			</div>
-	  		</div>
-		</div>
-	</section>
-	<!-- End TPricing Plane Area -->
-
 	<!-- Start Footer Area -->
 	<?php include "include/footer.php";
 	 ?>

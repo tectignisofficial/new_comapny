@@ -161,7 +161,8 @@ input[type=number] {
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-input">
-                                        <input type="number" name="phone" minlength="10" maxlength="10" placeholder="Your Phone"  required>
+									<input type="text" minlength="10" maxlength="10" class="form_control phone1" placeholder="Phone" name="phone" id="phone1" required>
+									<span id="phone1Span" class="mb-4"></span>
                                         <i class="fas fa-mobile-alt"></i>
                                     </div>
                                 </div>
@@ -178,7 +179,7 @@ input[type=number] {
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" name="submit" >Send Message</button>
+                                    <button type="submit" name="submit" id="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>
@@ -214,6 +215,48 @@ input[type=number] {
     <script src="assets/js/script.js"></script>
     <script src="assets/js/mobile-menu.js"></script>
     <script src="assets/js/ajax-form.js"></script>
+	<script>
+             $("#phone1Span").hide();
+	    $(".phone1").keyup(function(){
+	     mobile_check();
+	   });
+	   function mobile_check(){
+		   let mobileno=$(".phone1").val();
+		   let vali =/^\d{10}$/; 
+		   if(!vali.test(mobileno)){
+        validenqtMobile="no";
+			    $("#phone1Span").show().html("*Invalid Mobile No").css("color","red").focus();
+				mobile_err=false;
+			 return false;
+		   }
+		   else{
+        validenqtMobile="yes";
+		       $("#phone1Span").hide(); 
+		   }
+	   }
 
+	   $("#submit").click(function(){
+       mobile_err=true;
+             mobile_check();
+			   
+			   if((mobile_err=true)){
+			      return true;
+			   }
+			   else{return false;}
+		  });
+
+        let  validenqtMobile;
+
+ let submitenant = document.getElementById("submit");
+     submitenant.addEventListener("click", function(){
+
+     if(validenqtMobile == "no"){
+         swal("Oops...", "Please fill all the fields", "error");
+     }
+         else{
+             swal("Saved!", " Thank you for contacting us we will reply as soon as possible", "success");
+         }
+     });
+        </script>
 </body>
 </html>

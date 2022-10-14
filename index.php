@@ -838,7 +838,7 @@ if(isset($_POST['save']))
 											</ul>
 										</div>
 										<div class="pricng-btn">
-											<a class="button-1" href="#">Get Started</a>
+											<a class="button-1" href="pricing.php">Get Started</a>
 										</div>
 									</div>
 								</div>
@@ -861,7 +861,7 @@ if(isset($_POST['save']))
 											</ul>
 										</div>
 										<div class="pricng-btn">
-											<a class="button-1" href="#">Get Started</a>
+											<a class="button-1" href="pricing.php">Get Started</a>
 										</div>
 									</div>
 								</div>
@@ -883,7 +883,7 @@ if(isset($_POST['save']))
 											</ul>
 										</div>
 										<div class="pricng-btn">
-											<a class="button-1" href="#">Get Started</a>
+											<a class="button-1" href="pricing.php">Get Started</a>
 										</div>
 									</div>
 								</div>
