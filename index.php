@@ -46,11 +46,18 @@ if(isset($_POST['save']))
 <html class="no-js" lang="en">
 
 <head>
+<?php 
+                        
+                        $sql=mysqli_query($conn,"select * from title where heading='Index'");
+                         $arr=mysqli_fetch_array($sql)
+                        ?> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Tectignis is the Website Design Company in Navi Mumbai. We are Offering website design services for Ecommerce, Digital Marketing, Web Application & Development.">
-	<title>Website Design Company in Navi Mumbai | Web Development & Application </title>
+	<meta name="description" content="<?php echo $arr['description'];?>">
+	<meta name="keywords" content="<?php echo $arr['keyword'];?> ">
+
+	<title><?php echo $arr['title'];?> </title>
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">

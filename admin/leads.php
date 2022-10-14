@@ -122,7 +122,7 @@ if(isset($_POST['submit'])){
                         $sql=mysqli_query($conn,"select * from contact order by `created_on` DESC");
                         $count=1;
                          while($arr=mysqli_fetch_array($sql)){
-                        ?>
+                        ?> 
                                             <tr>
                                                 <td><?php echo $count;?> </td>
                                                 <td><?php echo $arr['name'];?> </td>

@@ -36,6 +36,8 @@
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="index_enquiry.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples">Enquiry</span></a>
                 </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="title.php"><i data-feather="square"></i><span class="menu-title text-truncate" data-i18n="Modal Examples">Title</span></a>
+                </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="app-kanban.html"><i data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="Kanban">Settings</span></a><ul class="menu-content">
                         <li><a class="d-flex align-items-center" href="page-account.php"><i data-feather="circle"></i><span class="menu-item text-truncate" data-i18n="Preview">Account</span></a>
                         </li>

@@ -25,10 +25,17 @@ if(isset($_POST['submit']))
 <!DOCTYPE html>
 <html  class="no-js" lang="en">
 <head>
+<?php 
+                        
+                        $sql=mysqli_query($conn,"select * from title where heading='Mobile App'");
+                         $arr=mysqli_fetch_array($sql)
+                        ?> 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Tectignis - Mobile-App Development</title>
+	<meta name="description" content="<?php echo $arr['description'];?>">
+	<meta name="keywords" content="<?php echo $arr['keyword'];?> ">
+	<title><?php echo $arr['title'];?> </title>
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
