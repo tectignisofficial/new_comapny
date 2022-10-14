@@ -65,10 +65,12 @@
 						<h3>Company</h3>
 						<ul>
 							<li><a href="about.php">About Us</a></li>
-							<li><a href="careers.php">Careers<span>We're hiring</span></a></li>
+							<!-- <li><a href="careers.php">Careers<span>We're hiring</span></a></li> -->
+							<li><a href="ceo-govind-bavkar.php">CEO</a></li>
+							<li><a href="team.php">Team</a></li>
 							<li><a href="portfolio.php">Portfolio </a></li>
 							<li><a href="contact.php">Contact Us</a></li>
-							<li><a href="blog.php">Blog</a></li>
+							<!-- <li><a href="blog.php">Blog</a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -77,8 +79,7 @@
 					<div class="f-widgets-item">
 						<h3>Useful Links</h3>
 						<ul>
-							<li><a href="ceo-govind-bavkar.php">CEO</a></li>
-							<li><a href="team.php">Team</a></li>
+							
 							<li><a href="terms-&-condition.php">Terms and Condition</a></li>
 							<li><a href="privacy-policy.php">Privacy Policy</a></li>
 							<li><a href="refund-policy.php">Refund Policy</a></li>
