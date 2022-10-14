@@ -1265,6 +1265,20 @@ if(isset($_POST['save']))
 			$('.slide_margin').infiniteslide();
 		});
 	</script>
+	<script>
+		$(document).ready(function () {
+			$(window).on('scroll', function () {
+				var a = $(window).scrollTop();
+				if (a > 400) {
+					$('.request-area').slideDown(300);
+				} else {
+					$('.request-area').slideUp(200);
+				}
+			})
+		}
+        );
+
+	</script> 
 
 	
 </body>

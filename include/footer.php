@@ -127,19 +127,8 @@
 
 
 	</div>
+	
 </footer>
-<script>
-		$(document).ready(function () {
-			$(window).on('scroll', function () {
-				var a = $(window).scrollTop();
-				if (a > 400) {
-					$('.request-area').slideDown(300);
-				} else {
-					$('.request-area').slideUp(200);
-				}
-			});
-		});
-		// Co
-	</script>
+
 
 <!-- End Footer Area -->
