@@ -113,7 +113,9 @@ input[type=number] {
 										</ul> -->
 									</div>
 								</li>
-
+								<li>
+									<a href="pricing.php">Pricing</a>
+								</li>
 								<li>
 									<a href="portfolio.php">Portfolio</a>
 								</li>
@@ -142,7 +144,7 @@ input[type=number] {
 				</div>
 				<div class="mobile-logo">
 					<a href="index.php">
-						<img src="assets/img/logo2.png" alt="logo" />
+						<img src="assets/img/logo.webp" alt="logo" />
 					</a>
 				</div>
 				<div id="menu" class="text-left">
@@ -170,6 +172,9 @@ input[type=number] {
 								<li><a href="cctv-camera.php">CCTV Camera</a></li>
 								<li><a href="it-consulting.php">IT Consulting</a></li>
 							</ul>
+						</li>
+						<li>
+							<a href="pricing.php">Pricing</a>
 						</li>
 						<li>
 							<a href="portfolio.php">Portfolio</a>
