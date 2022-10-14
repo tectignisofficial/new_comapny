@@ -179,28 +179,7 @@ if(isset($_POST['submit']))
 		</div>
 	</section>
 	<!-- End Portfolio Details -->
-	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.webp');">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="subscribe-content">
-						<h2>Start your <br>30 day free trial.</h2>
-						<p>Naff the little rotter have gutted mate James cuppa baking legged. </p>
-						<form action="#">
-							<input type="email" name="email" placeholder="Email Address">
-							<button type="submit">Sign up free</button>
-						</form>
-						<ul>
-							<li><i class="fas fa-check"></i>  30-day free tria</li>
-							<li><i class="fas fa-check"></i> No credit card required</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Subscribe Area -->
+
 	<!-- Start Footer Area -->
 	<?php include "include/footer.php";
 	 ?>
