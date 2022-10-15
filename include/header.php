@@ -1,3 +1,7 @@
+<?php
+$page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
+?>
+
 <style>
 	/* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -9,6 +13,9 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+.nav-link a{
+	color:#FFC0CB;
 }
 </style>	
 	
@@ -42,13 +49,13 @@ input[type=number] {
 						<nav>
 							<ul>
 								<li>
-									<a href="index.php">Home</a>
+								<a class="nav-link <?= $page == 'index.php' ? 'active':'' ?>" href="index.php">Home</a>
 								</li>
 								<li class="menu-item-has-children">
-									<a href="about.php">About Us</a>
+									<a class="nav-link <?= $page == 'about.php' ? 'active':'' ?>" href="about.php">About Us</a>
 									<ul>
-										<li><a href="ceo-govind-bavkar.php">CEO</a></li>
-										<li><a href="team.php">Teams</a></li>
+										<li><a class="nav-link <?= $page == 'ceo-govind-bavkar.php' ? 'active':'' ?>" href="ceo-govind-bavkar.php">CEO</a></li>
+										<li><a class="nav-link <?= $page == 'team.php' ? 'active':'' ?>" href="team.php">Team</a></li>
 									</ul>
 								</li>
 								<!-- <li class="menu-item-has-children">
@@ -65,35 +72,34 @@ input[type=number] {
 										<li><a href="it-consulting.html">IT Consulting</a></li>
 									</ul>
 								</li> -->
-								<li class="nav-dropdown menu-item-has-children"><a href="services.php">Services <i
+								<li class="nav-dropdown menu-item-has-children"><a class="nav-link <?= $page == 'services.php' ? 'active':'' ?>" href="services.php">Services <i
 											class="icon-down-arrow"></i></a>
 									<div class="mega-menu tech-menu py-4">
 										<ul class="menu-col">
 											<li class="nav-heading"><span><i class="far fa-eye"></i></span>
 												Web<br>Technologies</li>
-											<li><a href="website-designing.php">Website Designing</a></li>
-											<li><a href="ecommerce-website-design-development.php">Ecommerce
+											<li><a class="nav-link <?= $page == 'website-designing.php' ? 'active':'' ?>" href="website-designing.php">Website Designing</a></li>
+											<li><a class="nav-link <?= $page == 'ecommerce-website-design-development.php' ? 'active':'' ?>" href="ecommerce-website-design-development.php">Ecommerce
 													Website</a></li>
 										</ul>
 										<ul class="menu-col">
 											<li class="nav-heading"><span><i class="far fa-eye"></i></span>
 												Software & <br>App Development</li>
-											<li><a href="mobile-app-development.php">Mobile App Development</a></li>
-											<li><a href="software-development.php">Software Development</a></li>
-
+											<li><a class="nav-link <?= $page == 'mobile-app-development.php' ? 'active':'' ?>" href="mobile-app-development.php">Mobile App Development</a></li>
+											<li><a class="nav-link <?= $page == 'software-development.php' ? 'active':'' ?>" href="software-development.php">Software Development</a></li>
 										</ul>
 										<ul class="menu-col">
 											<li class="nav-heading"><span><i class="far fa-eye"></i></span>
 												Marketing<br>& Graphics</li>
-											<li><a href="digital-marketing.php">Digital Marketing</a></li>
-											<li><a href="graphics-designing.php">Graphics Designing</a></li>
+											<li><a class="nav-link <?= $page == 'digital-marketing.php' ? 'active':'' ?>" href="digital-marketing.php">Digital Marketing</a></li>
+											<li><a class="nav-link <?= $page == 'graphics-designing.php' ? 'active':'' ?>" href="graphics-designing.php">Graphics Designing</a></li>
 										</ul>
 										<ul class="menu-col">
 											<li class="nav-heading"><span><i class="far fa-eye"></i></span>
 												Other<br>Technologies</li>
-											<li><a href="hardware-networking.php">Hardware Networking</a></li>
-											<li><a href="cctv-camera.php">CCTV Camera</a></li>
-											<li><a href="it-consulting.php">IT Consulting</a></li>
+											<li><a class="nav-link <?= $page == 'hardware-networking.php' ? 'active':'' ?>" href="hardware-networking.php">Hardware Networking</a></li>
+											<li><a class="nav-link <?= $page == 'cctv-camera.php' ? 'active':'' ?>" href="cctv-camera.php">CCTV Camera</a></li>
+											<li><a class="nav-link <?= $page == 'it-consulting.php' ? 'active':'' ?>" href="it-consulting.php">IT Consulting</a></li>
 										</ul>
 										<!-- <ul class="menu-col">
 											<li class="nav-heading"><span class="icon-mobile-app-Android"></span>
@@ -114,16 +120,16 @@ input[type=number] {
 									</div>
 								</li>
 								<li>
-									<a href="pricing.php">Pricing</a>
+								<a class="nav-link <?= $page == 'pricing.php' ? 'active':'' ?>" href="pricing.php">Pricing</a>
 								</li>
 								<li>
-									<a href="portfolio.php">Portfolio</a>
+								<a class="nav-link <?= $page == 'portfolio.php' ? 'active':'' ?>" href="portfolio.php">Portfolio</a>
 								</li>
 								<!-- <li>
 									<a href="blog.php">Blog</a>
 								</li> -->
 								<li>
-									<a href="contact.php">Contact Us</a>
+								<a class="nav-link <?= $page == 'contact.php' ? 'active':'' ?>" href="contact.php">Contact Us</a>
 								</li>
 							</ul>
 						</nav>
@@ -150,39 +156,40 @@ input[type=number] {
 				<div id="menu" class="text-left">
 					<ul class="offcanvas_main_menu">
 						<li>
-							<a href="index.php">Home</a>
+						<li><a class="nav-link <?= $page == 'index.php' ? 'active':'' ?>" href="index.php">Home</a></li>
+
 						</li>
 						<li class="menu-item-has-children">
-							<a href="about.php">About Us</a>
+						<a class="nav-link <?= $page == 'about.php' ? 'active':'' ?>" href="about.php">About Us</a>
 							<ul class="sub-menu">
-								<li><a href="ceo-govind-bavkar.php">CEO</a></li>
-								<li><a href="team.php">Teams</a></li>
+						<a class="nav-link <?= $page == 'ceo-govind-bavkar.php' ? 'active':'' ?>" href="ceo-govind-bavkar.php">CEO</a>
+						<a class="nav-link <?= $page == 'team.php' ? 'active':'' ?>" href="team.php">Teams</a>
 							</ul>
 						</li>
 						<li class="menu-item-has-children">
-							<a href="services.php">Services</a>
+						<a class="nav-link <?= $page == 'services.php' ? 'active':'' ?>" href="services.php">Services</a>
 							<ul class="sub-menu">
-								<li><a href="website-designing.php">Website Designing</a></li>
-								<li><a href="ecommerce-website-design-development.php">Ecommerce Website</a></li>
-								<li><a href="software-development.php">Software Development</a></li>
-								<li><a href="mobile-app-development.php">Mobile App Development</a></li>
-								<li><a href="digital-marketing.php">Digital Marketing</a></li>
-								<li><a href="graphics-designing.php">Graphics Designing</a></li>
-								<li><a href="hardware-networking.php">Hardware Networking</a></li>
-								<li><a href="cctv-camera.php">CCTV Camera</a></li>
-								<li><a href="it-consulting.php">IT Consulting</a></li>
+								<li><a class="nav-link <?= $page == 'website-designing.php' ? 'active':'' ?>" href="website-designing.php">Website Designing</a></li>
+								<li><a class="nav-link <?= $page == 'ecommerce-website-design-development.php' ? 'active':'' ?>" href="ecommerce-website-design-development.php">Ecommerce Website</a></li>
+								<li><a class="nav-link <?= $page == 'software-development.php' ? 'active':'' ?>" href="software-development.php">Software Development</a></li>
+								<li><a class="nav-link <?= $page == 'mobile-app-development.php' ? 'active':'' ?>" href="mobile-app-development.php">Mobile App Development</a></li>
+								<li><a class="nav-link <?= $page == 'digital-marketing.php' ? 'active':'' ?>" href="digital-marketing.php">Digital Marketing</a></li>
+								<li><a class="nav-link <?= $page == 'graphics-designing.php' ? 'active':'' ?>" href="graphics-designing.php">Graphics Designing</a></li>
+								<li><a class="nav-link <?= $page == 'hardware-networking.php' ? 'active':'' ?>" href="hardware-networking.php">Hardware Networking</a></li>
+								<li><a class="nav-link <?= $page == 'cctv-camera.php' ? 'active':'' ?>" href="cctv-camera.php">CCTV Camera</a></li>
+								<li><a class="nav-link <?= $page == 'it-consulting.php' ? 'active':'' ?>" href="it-consulting.php">IT Consulting</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="pricing.php">Pricing</a>
+							<a class="nav-link <?= $page == 'pricing.php' ? 'active':'' ?>" href="pricing.php">Pricing</a>
 						</li>
 						<li>
-							<a href="portfolio.php">Portfolio</a>
+							<a class="nav-link <?= $page == 'portfolio.php' ? 'active':'' ?>" href="portfolio.php">Portfolio</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="blog.php">Blog</a>
-						</li>
-						<li><a href="contact.php">Contact Us</a></li>
+						</li> -->
+						<li><a class="nav-link <?= $page == 'contact.php' ? 'active':'' ?>" href="contact.php">Contact</a></li>
 					</ul>
 				</div>
 			</div>

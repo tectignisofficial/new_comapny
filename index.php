@@ -825,16 +825,19 @@ if(isset($_POST['save']))
 									<div class="pricing-item">
 										<div class="pricing-header">
 											<h4>BASIC</h4>
-											<h2>$19.89</h2>
+											<h2>₹8,000</h2>
 										</div>
 										<div class="pricing-content">
 											<ul>
-												<li>Basic Listing Submission</li>
-												<li>One Listing</li>
-												<li>30 Days Availability</li>
-												<li>Limited Support</li>
-												<li>Accept Reviews</li>
-												<li>Edit Your Listing</li>
+												<li>Upto 5 Pages</li>
+												<li>Logo</li>
+												<li>Slider</li>
+												<li>Dynamic Website</li>
+												<li>Domain-1st Year Free</li>
+												<li>Hosting Free For 1st Year</li>
+												<li>1 Email – 500 MB Quota</li>
+												<li>1 Contact Form</li>
+												<li>Free SSL</li>
 											</ul>
 										</div>
 										<div class="pricng-btn">
@@ -847,17 +850,20 @@ if(isset($_POST['save']))
 									<div class="pricing-item active">
 										<div class="pricing-header">
 											<h4>STANDART</h4>
-											<h2>$99.89</h2>
+											<h2>₹15,000</h2>
 											<div class="badge">Popular</div>
 										</div>
 										<div class="pricing-content">
 											<ul>
-												<li>Basic Listing Submission</li>
-												<li>One Listing</li>
-												<li>30 Days Availability</li>
-												<li>Limited Support</li>
-												<li>Accept Reviews</li>
-												<li>Edit Your Listing</li>
+												<li>10 Pages</li>
+												<li>Logo</li>
+												<li>Slider</li>
+												<li>Dynamic Website</li>
+												<li>Domain-1st Year Free</li>
+												<li>Hosting Free For 1st Year</li>
+												<li>2 Email – 500 MB Quota Each</li>
+												<li>1 Contact Form</li>
+												<li>Free SSL</li>
 											</ul>
 										</div>
 										<div class="pricng-btn">
@@ -870,16 +876,19 @@ if(isset($_POST['save']))
 									<div class="pricing-item">
 										<div class="pricing-header">
 											<h4>Premium</h4>
-											<h2>$119.89</h2>
+											<h2>₹25,000</h2>
 										</div>
 										<div class="pricing-content">
 											<ul>
-												<li>Basic Listing Submission</li>
-												<li>One Listing</li>
-												<li>30 Days Availability</li>
-												<li>Limited Support</li>
-												<li>Accept Reviews</li>
-												<li>Edit Your Listing</li>
+												<li> Up to 50 Products</li>
+												<li>Logo</li>
+												<li>Contact Form – 3</li>
+												<li>Content – Free</li>
+												<li>300 Rs/Extra Page</li>
+												<li>WhatsApp Chat Integration</li>
+												<li>Social Media Profiles Integration</li>
+												<li>Social Profile Link</li>
+												<li>WordPress Login Details Will be Given</li>
 											</ul>
 										</div>
 										<div class="pricng-btn">
