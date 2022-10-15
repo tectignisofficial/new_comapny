@@ -14,8 +14,8 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
-.nav-link a{
-	color:#FFC0CB;
+.menu-active{
+	color:#ffffff;
 }
 </style>	
 	
@@ -48,14 +48,14 @@ input[type=number] {
 					<div class="menu">
 						<nav>
 							<ul>
-								<li>
-								<a class="nav-link <?= $page == 'index.php' ? 'active':'' ?>" href="index.php">Home</a>
+								<li class="menu <?= $page == 'index.php' ? 'menu-active':'' ?>">
+								<a href="index.php">Home</a>
 								</li>
 								<li class="menu-item-has-children">
 									<a class="nav-link <?= $page == 'about.php' ? 'active':'' ?>" href="about.php">About Us</a>
 									<ul>
-										<li><a class="nav-link <?= $page == 'ceo-govind-bavkar.php' ? 'active':'' ?>" href="ceo-govind-bavkar.php">CEO</a></li>
-										<li><a class="nav-link <?= $page == 'team.php' ? 'active':'' ?>" href="team.php">Team</a></li>
+										<li><a class="<?= $page == 'ceo-govind-bavkar.php' ? 'active':'' ?>" href="ceo-govind-bavkar.php">CEO</a></li>
+										<li><a class="<?= $page == 'team.php' ? 'nav-active':'' ?>" href="team.php">Team</a></li>
 									</ul>
 								</li>
 								<!-- <li class="menu-item-has-children">
@@ -119,7 +119,7 @@ input[type=number] {
 										</ul> -->
 									</div>
 								</li>
-								<li>
+								<li class="menu <?= $page == 'pricing.php' ? 'menu-active':'' ?>">
 								<a class="nav-link <?= $page == 'pricing.php' ? 'active':'' ?>" href="pricing.php">Pricing</a>
 								</li>
 								<li>

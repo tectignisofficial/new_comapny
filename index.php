@@ -824,8 +824,8 @@ if(isset($_POST['save']))
 								<div class="col-lg-4 col-md-6 mb-30">
 									<div class="pricing-item">
 										<div class="pricing-header">
-											<h4>BASIC</h4>
-											<h2>₹8,000</h2>
+											<h4>Startup Website</h4>
+											<h2>₹8,000 INR</h2>
 										</div>
 										<div class="pricing-content">
 											<ul>
@@ -849,8 +849,8 @@ if(isset($_POST['save']))
 								<div class="col-lg-4 col-md-6 mb-30">
 									<div class="pricing-item active">
 										<div class="pricing-header">
-											<h4>STANDART</h4>
-											<h2>₹15,000</h2>
+											<h4>Small Business</h4>
+											<h2>₹15,000 INR</h2>
 											<div class="badge">Popular</div>
 										</div>
 										<div class="pricing-content">
@@ -875,8 +875,8 @@ if(isset($_POST['save']))
 								<div class="col-lg-4 col-md-6 mb-30">
 									<div class="pricing-item">
 										<div class="pricing-header">
-											<h4>Premium</h4>
-											<h2>₹25,000</h2>
+											<h4>Ecommerce Website</h4>
+											<h2>₹25,000 INR</h2>
 										</div>
 										<div class="pricing-content">
 											<ul>

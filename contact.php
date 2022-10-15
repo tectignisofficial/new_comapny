@@ -145,7 +145,7 @@ input[type=number] {
 			<div class="row">
 				<div class="col-lg-7 offset-lg-2">
 					<div class="contact-form">
-                        <form id="contact-form" action="contactDB.php" method="POST">
+                        <form action="contactDB.php" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="single-input">
@@ -183,7 +183,7 @@ input[type=number] {
                                 </div>
                             </div>
                         </form>
-                        <p class="ajax-response"></p>
+                        <!-- <p class="ajax-response"></p> -->
                     </div>
 				</div>
 			</div>

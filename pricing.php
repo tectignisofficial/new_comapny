@@ -118,10 +118,10 @@ if(isset($_POST['submit']))
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcrumb-content">
-						<h2>Our Pricing Plane</h2>
+						<h2>Our Pricing Plan</h2>
 						<ul>
 							<li><a href="index.php">Home</a></li>
-							<li>Pricing Plane</li>
+							<li>Pricing Plan</li>
 						</ul>
 					</div>
 				</div>
@@ -129,7 +129,7 @@ if(isset($_POST['submit']))
 		</div>
 	</section>
 	<!-- End Breadcrumb Area -->
-	<!-- Start Pricing Plane Area -->
+	<!-- Start Pricing Plan Area -->
 	<section class="section-padding-2">
 		<div class="container">
 			<!-- Section Headding -->
@@ -150,7 +150,7 @@ if(isset($_POST['submit']))
 					  			<div class="col-lg-4 col-md-6 mb-30">
 					  				<div class="pricing-item">
 					  					<div class="pricing-header">
-					  						<h4>BASIC</h4>
+					  						<h4>Startup</h4>
 					  						<h2>₹8,000</h2>
 					  					</div>
 					  					<div class="pricing-content">
@@ -187,7 +187,7 @@ if(isset($_POST['submit']))
 					  			<div class="col-lg-4 col-md-6 mb-30">
 					  				<div class="pricing-item active">
 					  					<div class="pricing-header">
-					  						<h4>STANDART</h4>
+					  						<h4>Small Business</h4>
 					  						<h2>₹15,000</h2>
 					  						<div class="badge">Popular</div>
 					  					</div>
@@ -227,7 +227,7 @@ if(isset($_POST['submit']))
 					  			<div class="col-lg-4 col-md-6 mb-30">
 					  				<div class="pricing-item">
 					  					<div class="pricing-header">
-					  						<h4>Premium</h4>
+					  						<h4>ECommerce</h4>
 					  						<h2>₹25,000</h2>
 					  					</div>
 					  					<div class="pricing-content">
@@ -331,7 +331,7 @@ if(isset($_POST['submit']))
 			</div>
 		</div>
 	</section>
-	<!-- End TPricing Plane Area -->
+	<!-- End TPricing Plan Area -->
 	<!-- Start Footer Area -->
 	<?php include "include/footer.php";
 	 ?>
