@@ -403,7 +403,7 @@ if(isset($_POST['save']))
 						</div>
 						<div class="use_form">
 							<form method="post">
-								<input type="text" name="name" placeholder="Name">
+								<input type="text" name="name"  placeholder="Name">
 								<input type="email" name="email" placeholder="Email">
 								<input type="text" name="subject" placeholder="Subject">
 								<button class="button-1" type="submit" name="save">Submit Now</button>
@@ -1264,6 +1264,7 @@ if(isset($_POST['save']))
 	<script src="assets/js/typed.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/mobile-menu.js"></script>
+
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script src="https://www.jqueryscript.net/demo/Infinite-Scroller-Plugin-jQuery/infiniteslidev2.js"></script>
 	<script type="text/javascript">
@@ -1285,27 +1286,7 @@ if(isset($_POST['save']))
         );
 
 	</script> 
-
 	
 </body>
-
-<?php
-if(isset($_POST['submit'])){
-  $name=$_POST['name'];
-  $email=$_POST['email'];
-  $mob_no=$_POST['phone'];
-  $subject=$_POST['subject'];
-  $message=$_POST['message'];
- 
-  $sql=mysqli_query($conn,"INSERT INTO `request_quote`(`name`, `email`, `mob_no`, `subject`, `message`) VALUES ('$name','$email','$phone','$subject','$message')");
-  if($sql==1){
-    echo '<script>alert("Successfully submitted");</script>';
-    header("location:index.php");
-}else {
-    echo '<script>alert("oops...somthing went wrong");</script>';
-}
-        
-}
-?>
 
 </html>
