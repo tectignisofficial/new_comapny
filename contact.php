@@ -215,6 +215,8 @@ input[type=number] {
     <script src="assets/js/script.js"></script>
     <script src="assets/js/mobile-menu.js"></script>
     <script src="assets/js/ajax-form.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 	<script>
 		$(document).ready(function () {
 			$(window).on('scroll', function () {
@@ -269,7 +271,7 @@ input[type=number] {
          swal("Oops...", "Please fill all the fields", "error");
      }
          else{
-             swal("Saved!", " Thank you for contacting us we will reply as soon as possible", "success");
+             swal("Saved!", " Thank you for contacting form submitted successfully", "success");
          }
      });
         </script>

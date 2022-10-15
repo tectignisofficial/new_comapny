@@ -60,70 +60,7 @@ if(isset($_POST['submit']))
 	?>
 	<!-- End Header Area -->
 	<!-- Start Mobile Menu Area -->
-    <div class="mobile-menu-area">
-        <!--offcanvas menu area start-->
-        <div class="off_canvars_overlay"></div>
-        <div class="offcanvas_menu">
-            <div class="offcanvas_menu_wrapper">
-                <div class="canvas_close">
-                    <a href="javascript:void(0)"><i class="fas fa-times"></i></a>
-                </div>
-                <div class="mobile-logo">
-                    <a href="index.php">
-                        <img src="assets/img/logo.webp" alt="logo" />
-                    </a>
-                </div>
-                <div id="menu" class="text-left">
-                    <ul class="offcanvas_main_menu">
-                        <li class="menu-item-has-children active">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.php">Home Default</a></li>
-								<li><a href="money-app.php">Money App</a></li>
-								<li><a href="agency.php">Agency</a></li>
-								<li><a href="job-board.php">Jobs Board</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Page</a>
-                            <ul class="sub-menu">
-                                <li><a href="team.php">Team</a></li>
-								<li><a href="pricing.php">Pricing Plane</a></li>
-								<li><a href="faq.php">Faq</a></li>
-								<li><a href="404.php">404 Error</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Services</a>
-                            <ul class="sub-menu">
-                                <li><a href="services.php">Services</a></li>
-								<li><a href="services-details.php">Services Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Portfolio</a>
-                            <ul class="sub-menu">
-                                <li><a href="portfolio.php">Portfolio</a></li>
-								<li><a href="porfolio-details.php">Portfolio Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.php">Blog</a></li>
-								<li><a href="blog-grid.php">Blog Grid</a></li>
-								<li><a href="blog-left-sidebar.php">Blog Left Sidebar</a></li>
-								<li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
-								<li><a href="single.php">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+  
     <!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->

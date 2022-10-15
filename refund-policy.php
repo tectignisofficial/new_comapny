@@ -62,57 +62,7 @@ if(isset($_POST['submit']))
 	?>
 	<!-- End Header Area -->
 	<!-- Start Mobile Menu Area -->
-	<div class="mobile-menu-area">
-		<!--offcanvas menu area start-->
-		<div class="off_canvars_overlay"></div>
-		<div class="offcanvas_menu">
-			<div class="offcanvas_menu_wrapper">
-				<div class="canvas_close">
-					<a href="javascript:void(0)"><i class="fas fa-times"></i></a>
-				</div>
-				<div class="mobile-logo">
-					<a href="index.php">
-						<img src="assets/img/logo2.webp" alt="logo" />
-					</a>
-				</div>
-				<div id="menu" class="text-left">
-					<ul class="offcanvas_main_menu">
-						<li>
-							<a href="index.php">Home</a>
-						</li>
-						<li class="menu-item-has-children">
-							<a href="about.php">About Us</a>
-							<ul class="sub-menu">
-								<li><a href="ceo-govind-bavkar.php">CEO</a></li>
-								<li><a href="team.php">Teams</a></li>
-							</ul>
-						</li>
-						<li class="menu-item-has-children">
-							<a href="services.php">Services</a>
-							<ul class="sub-menu">
-								<li><a href="website-designing.php">Website Designing</a></li>
-								<li><a href="ecommerce-website-design-development.php">Ecommerce Website</a></li>
-								<li><a href="software-development.php">Software Development</a></li>
-								<li><a href="mobile-app-development.php">Mobile App Development</a></li>
-								<li><a href="digital-marketing.php">Digital Marketing</a></li>
-								<li><a href="graphics-designing.php">Graphics Designing</a></li>
-								<li><a href="hardware-networking.php">Hardware Networking</a></li>
-								<li><a href="cctv-camera.php">CCTV Camera</a></li>
-								<li><a href="it-consulting.php">IT Consulting</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="portfolio.php">Portfolio</a>
-						</li>
-						<li>
-							<a href="blog.php">Blog</a>
-						</li>
-						<li><a href="contact.php">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 	<!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->
