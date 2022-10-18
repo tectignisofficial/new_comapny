@@ -399,7 +399,7 @@ if(isset($_POST['save']))
 				<div class="col-12 col-lg-5">
 					<div class="usefull-resourses-form">
 						<div class="thum">
-							<img src="assets/img/custom-website-development.webp" alt="img">
+							<img src="assets/img/custom-website-development.webp" style="width:100%" alt="img">
 						</div>
 						<div class="use_form">
 							<form method="post">
