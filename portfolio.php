@@ -29,9 +29,9 @@ if(isset($_POST['submit']))
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tectignis - Portfolio</title>
-	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="16x16">
-	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.webp" type="image/gif" sizes="20x20">
+	<link rel="icon" href="assets/img/icon.jpg" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/img/icon.jpg" type="image/gif" sizes="18x18">
+	<link rel="icon" href="assets/img/icon.jpg" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -64,7 +64,7 @@ if(isset($_POST['submit']))
     <!--offcanvas menu area end-->
 
 	<!-- Start Breadcrumb Area -->
-	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.webp');">
+	<section class="breadcrumb-area" style="background-image: url('assets/img/IT- services.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -97,11 +97,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix marketing">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/01.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/01.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/01.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/01.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -111,11 +111,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix digital">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/02.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/02.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/02.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/02.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -125,11 +125,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix marketing">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/03.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/03.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/03.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/03.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -139,11 +139,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix digital design">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/04.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/04.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/04.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/04.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -153,11 +153,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix marketing">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/05.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/05.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/05.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/05.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -167,11 +167,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix design">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/06.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/06.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/06.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/06.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -181,11 +181,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix marketing">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/07.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/07.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/07.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/07.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -195,11 +195,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix digital">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/08.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/08.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/08.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/08.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
@@ -209,11 +209,11 @@ if(isset($_POST['submit']))
 					<div class="col-lg-4 col-md-6 mb-30 mix design">
 						<div class="portfolio-item">
 							<div class="thumbnail">
-								<img src="assets/img/portfolio/09.webp" alt="Portfolio">
+								<img src="assets/img/portfolio/09.jpg" alt="Portfolio">
 							</div>
 							<div class="portfolio-overly">
 								<div class="pv_full">
-									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/09.webp"><i class="fas fa-search"></i></a>
+									<a data-rel="lightcase:myCollection:portfolio" href="assets/img/portfolio/09.jpg"><i class="fas fa-search"></i></a>
 									<a href="porfolio-details.php"><i class="fas fa-eye"></i></a>
 								</div>
 							</div>
