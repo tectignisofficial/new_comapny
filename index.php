@@ -501,7 +501,7 @@ if(isset($_POST['save']))
 				<!-- Thumbnail -->
 				<div class="col-lg-6 mb-30 order-lg-first order-last">
 					<div class="applicant-img applicant-img-2">
-						<img src="assets\img\website-development.webp" alt="dashkit">
+						<img src="assets/img/website-development.webp" alt="dashkit">
 					</div>
 				</div>
 				<!-- Content -->
